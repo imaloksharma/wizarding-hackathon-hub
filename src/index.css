@@ -2,41 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Magical Harry Potter Theme Design System */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Dark magical background */
+    --background: 222 47% 7%;
+    --foreground: 48 96% 88%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    /* Magical cards with dark transparency */
+    --card: 220 47% 12%;
+    --card-foreground: 48 96% 88%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 220 47% 12%;
+    --popover-foreground: 48 96% 88%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Golden magical primary */
+    --primary: 48 96% 65%;
+    --primary-foreground: 222 47% 7%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Dark magical secondary */
+    --secondary: 220 47% 15%;
+    --secondary-foreground: 48 96% 88%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted magical tones */
+    --muted: 220 47% 20%;
+    --muted-foreground: 48 50% 70%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Magical accent colors */
+    --accent: 258 90% 66%;
+    --accent-foreground: 48 96% 88%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 48 96% 88%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Magical borders and inputs */
+    --border: 220 47% 25%;
+    --input: 220 47% 20%;
+    --ring: 48 96% 65%;
 
-    --radius: 0.5rem;
+    /* Magical gradients */
+    --gradient-magical: linear-gradient(135deg, hsl(48 96% 65%), hsl(258 90% 66%));
+    --gradient-starry: linear-gradient(180deg, hsl(222 47% 7%), hsl(258 40% 12%));
+    --gradient-card: linear-gradient(145deg, hsl(220 47% 12% / 0.8), hsl(258 40% 15% / 0.6));
+    
+    /* Magical shadows */
+    --shadow-magical: 0 0 30px hsl(48 96% 65% / 0.3);
+    --shadow-glow: 0 0 60px hsl(258 90% 66% / 0.4);
+    --shadow-card: 0 10px 40px hsl(222 47% 7% / 0.5);
+
+    /* Smooth magical transitions */
+    --transition-magical: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --radius: 1rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -56,41 +74,34 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    /* Enhanced dark mode with deeper magical tones */
+    --background: 222 47% 4%;
+    --foreground: 48 96% 92%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 220 47% 8%;
+    --card-foreground: 48 96% 92%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 220 47% 8%;
+    --popover-foreground: 48 96% 92%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 48 96% 70%;
+    --primary-foreground: 222 47% 4%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 220 47% 12%;
+    --secondary-foreground: 48 96% 92%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 220 47% 15%;
+    --muted-foreground: 48 40% 75%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 258 90% 70%;
+    --accent-foreground: 48 96% 92%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 65%;
+    --destructive-foreground: 48 96% 92%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --border: 220 47% 20%;
+    --input: 220 47% 15%;
+    --ring: 48 96% 70%;
   }
 }
 
@@ -101,5 +112,56 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    background: var(--gradient-starry);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Magical starry background animation */
+  .starry-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+      radial-gradient(2px 2px at 20px 30px, hsl(48 96% 85%), transparent),
+      radial-gradient(2px 2px at 40px 70px, hsl(258 90% 80%), transparent),
+      radial-gradient(1px 1px at 90px 40px, hsl(48 96% 75%), transparent),
+      radial-gradient(1px 1px at 130px 80px, hsl(258 90% 70%), transparent),
+      radial-gradient(2px 2px at 160px 30px, hsl(48 96% 85%), transparent);
+    background-repeat: repeat;
+    background-size: 200px 100px;
+    animation: sparkle 20s linear infinite;
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  @keyframes sparkle {
+    from { 
+      transform: translateY(0px);
+    }
+    to { 
+      transform: translateY(-100px);
+    }
+  }
+
+  /* Magical text glow effects */
+  .text-magical {
+    background: var(--gradient-magical);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 10px hsl(48 96% 65% / 0.5));
+  }
+
+  .glow-magical {
+    box-shadow: var(--shadow-magical);
+    transition: var(--transition-magical);
+  }
+
+  .glow-magical:hover {
+    box-shadow: var(--shadow-glow);
+    transform: translateY(-2px);
   }
 }

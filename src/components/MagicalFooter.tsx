@@ -144,7 +144,7 @@ const MagicalFooter = () => {
         <div className="py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-muted-foreground">
-              © 2024 HackSpark. All rights reserved. Made with{" "}
+              © 2025 HackSpark.Designed & Developed By: Alok Kumar All rights reserved. Made with{" "}
               <Heart className="w-4 h-4 inline text-red-500 animate-pulse" />{" "}
               and magic.
             </div>

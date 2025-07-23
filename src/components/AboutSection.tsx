@@ -138,11 +138,11 @@ const AboutSection = () => {
                 <div className="text-muted-foreground">Participating Wizards</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary">72</div>
+                <div className="text-4xl font-bold text-primary">24</div>
                 <div className="text-muted-foreground">Hours of Magic</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary">25+</div>
+                <div className="text-4xl font-bold text-primary">10+</div>
                 <div className="text-muted-foreground">Expert Mentors</div>
               </div>
             </div>

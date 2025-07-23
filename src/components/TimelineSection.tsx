@@ -131,14 +131,14 @@ const TimelineSection = () => {
                 <Calendar className="w-8 h-8 text-primary mx-auto" />
                 <h4 className="font-semibold text-foreground">Duration</h4>
                 <p className="text-sm text-muted-foreground">
-                  72 hours of intensive magical coding across 3 days
+                  24 hours of intensive magical coding across 2 days
                 </p>
               </div>
               <div className="space-y-2">
                 <MapPin className="w-8 h-8 text-primary mx-auto" />
                 <h4 className="font-semibold text-foreground">Venue</h4>
                 <p className="text-sm text-muted-foreground">
-                  Hogwarts Academy of Technology, Great Hall
+                  Khalsa College of Engineering and Technology, Amritsar
                 </p>
               </div>
               <div className="space-y-2">

@@ -62,7 +62,7 @@ const MagicalFooter = () => {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3 text-muted-foreground">
                   <Calendar className="w-5 h-5 text-primary" />
-                  <span>March 15-17, 2024</span>
+                  <span>Sepetember 26-27, 2025</span>
                 </div>
                 <div className="flex items-center space-x-3 text-muted-foreground">
                   <MapPin className="w-5 h-5 text-primary" />
@@ -70,7 +70,7 @@ const MagicalFooter = () => {
                 </div>
                 <div className="flex items-center space-x-3 text-muted-foreground">
                   <Mail className="w-5 h-5 text-primary" />
-                  <span>wizards@hackathon.magic</span>
+                  <span>hackspark2025@gmail.com</span>
                 </div>
               </div>
 

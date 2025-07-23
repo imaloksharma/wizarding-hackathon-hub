@@ -50,7 +50,7 @@ const MagicalFooter = () => {
               <div className="flex items-center space-x-3">
                 <Sparkles className="text-primary w-10 h-10 animate-float" />
                 <div className="text-3xl font-bold text-magical">
-                  Wizarding Hackathon
+                  HackSpark
                 </div>
               </div>
               <p className="text-muted-foreground leading-relaxed max-w-md">
@@ -144,7 +144,7 @@ const MagicalFooter = () => {
         <div className="py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-muted-foreground">
-              © 2024 Wizarding Hackathon. All rights reserved. Made with{" "}
+              © 2024 HackSpark. All rights reserved. Made with{" "}
               <Heart className="w-4 h-4 inline text-red-500 animate-pulse" />{" "}
               and magic.
             </div>

@@ -23,7 +23,7 @@ const MagicalNavigation = () => {
           <div className="flex items-center space-x-2">
             <Sparkles className="text-primary w-8 h-8 animate-float" />
             <span className="text-2xl font-bold text-magical">
-              Wizarding Hackathon
+              HackSpark
             </span>
           </div>
 

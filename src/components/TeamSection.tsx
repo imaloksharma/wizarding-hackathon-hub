@@ -14,7 +14,7 @@ import member10 from '@/assets/team/member10.jpg';
 const TeamSection = () => {
   const teamMembers = [
     {
-      name: "Alex Rodriguez",
+      name: "Vidhi",
       role: "Lead Organizer",
       bio: "Full-stack developer with 8+ years experience in AI and machine learning.",
       image: member1,
@@ -25,7 +25,7 @@ const TeamSection = () => {
       }
     },
     {
-      name: "Sarah Chen",
+      name: "Alok Kumar",
       role: "Technical Director",
       bio: "Software architect specializing in scalable web applications and cloud computing.",
       image: member2,
@@ -36,7 +36,7 @@ const TeamSection = () => {
       }
     },
     {
-      name: "Marcus Thompson",
+      name: "Jahanvi Rana",
       role: "Community Manager",
       bio: "DevRel expert passionate about building inclusive tech communities and mentorship.",
       image: member3,
@@ -47,7 +47,7 @@ const TeamSection = () => {
       }
     },
     {
-      name: "Priya Sharma",
+      name: "Manpreet Singh",
       role: "AI/ML Expert",
       bio: "Data scientist and AI researcher with expertise in green technology solutions.",
       image: member4,
@@ -58,7 +58,7 @@ const TeamSection = () => {
       }
     },
     {
-      name: "David Kim", 
+      name: "Abhay", 
       role: "Cybersecurity Lead",
       bio: "Security engineer and ethical hacker focused on protecting digital infrastructure.",
       image: member5,
@@ -69,7 +69,7 @@ const TeamSection = () => {
       }
     },
     {
-      name: "Emma Watson",
+      name: "Arushi Sandhu",
       role: "UX Design Director",
       bio: "Design strategist creating intuitive user experiences for educational technologies.",
       image: member6,
@@ -80,7 +80,7 @@ const TeamSection = () => {
       }
     },
     {
-      name: "James Miller",
+      name: "Mehak Deep Kaur",
       role: "Senior Developer",
       bio: "Veteran software engineer with deep expertise in healthcare technology systems.",
       image: member7,
@@ -91,7 +91,7 @@ const TeamSection = () => {
       }
     },
     {
-      name: "Lisa Park",
+      name: "ArshDeep Singh",
       role: "Innovation Strategist",
       bio: "Technology consultant specializing in blue economy and sustainable ocean tech.",
       image: member8,

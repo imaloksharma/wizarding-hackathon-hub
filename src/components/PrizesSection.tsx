@@ -58,28 +58,28 @@ const PrizesSection = () => {
     {
       title: "Best Innovation",
       description: "Most creative and innovative solution",
-      prize: "₹15,000",
+      prize: "₹1000",
       icon: Star,
       color: "text-purple-500"
     },
     {
       title: "Best UI/UX",
       description: "Most beautiful and user-friendly design",
-      prize: "₹10,000",
+      prize: "₹500",
       icon: Award,
       color: "text-pink-500"
     },
     {
       title: "Best Tech Implementation",
       description: "Most impressive technical achievement",
-      prize: "₹10,000",
+      prize: "₹500",
       icon: Gift,
       color: "text-blue-500"
     },
     {
       title: "People's Choice",
       description: "Voted by fellow participants",
-      prize: "₹5,000",
+      prize: "₹5,00",
       icon: Star,
       color: "text-green-500"
     }

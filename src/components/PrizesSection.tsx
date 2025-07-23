@@ -7,13 +7,13 @@ const PrizesSection = () => {
     {
       rank: "1st Place",
       title: "Triwizard Champions",
-      amount: "₹50,000",
+      amount: "₹15,000",
       description: "The ultimate glory and recognition as the most skilled magical developers.",
       icon: Crown,
       gradient: "from-yellow-400 via-yellow-500 to-amber-600",
       shadowColor: "shadow-yellow-500/50",
       perks: [
-        "Cash Prize: ₹50,000",
+        "Cash Prize: ₹15,000",
         "Internship opportunities at top tech companies",
         "Exclusive mentorship program",
         "Featured on our Hall of Fame",
@@ -23,13 +23,13 @@ const PrizesSection = () => {
     {
       rank: "2nd Place",
       title: "Order of Merlin",
-      amount: "₹30,000",
+      amount: "₹10,000",
       description: "Exceptional magical abilities deserve exceptional recognition and rewards.",
       icon: Medal,
       gradient: "from-gray-300 via-gray-400 to-gray-500",
       shadowColor: "shadow-gray-400/50",
       perks: [
-        "Cash Prize: ₹30,000",
+        "Cash Prize: ₹10,000",
         "Job placement assistance",
         "Tech conference tickets",
         "Professional swag package",
@@ -39,13 +39,13 @@ const PrizesSection = () => {
     {
       rank: "3rd Place",
       title: "House Cup Winners",
-      amount: "₹20,000",
+      amount: "₹5,000",
       description: "Your magical journey has earned you a place among the most talented wizards.",
       icon: Trophy,
       gradient: "from-amber-600 via-amber-700 to-yellow-800",
       shadowColor: "shadow-amber-600/50",
       perks: [
-        "Cash Prize: ₹20,000",
+        "Cash Prize: ₹5,000",
         "Industry networking events",
         "Online course vouchers",
         "Standard swag package",
@@ -194,7 +194,7 @@ const PrizesSection = () => {
               Total Prize Pool
             </h3>
             <div className="text-6xl font-bold text-magical">
-              ₹1,40,000+
+              ₹70,000+
             </div>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Plus countless opportunities for internships, job placements, and career acceleration 

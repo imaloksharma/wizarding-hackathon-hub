@@ -15,16 +15,16 @@ const HeroSection = () => {
           {/* Badge */}
           <Badge variant="secondary" className="px-6 py-2 text-lg font-medium bg-card/60 backdrop-blur-sm">
             <Trophy className="w-5 h-5 mr-2" />
-            Grand Prize: ₹50,000
+            Grand Prize: ₹15,000
           </Badge>
 
           {/* Main title */}
           <div className="space-y-4">
             <h1 className="text-6xl md:text-8xl font-bold text-magical leading-tight">
-              WIZARDING
+              HackSpark
             </h1>
             <h1 className="text-6xl md:text-8xl font-bold text-magical leading-tight">
-              HACKATHON
+              2025
             </h1>
             <p className="text-2xl md:text-3xl text-muted-foreground font-semibold mt-6">
               Where Magic Meets Innovation
@@ -41,11 +41,11 @@ const HeroSection = () => {
           <div className="flex flex-wrap justify-center gap-6 text-lg">
             <div className="flex items-center space-x-2 text-muted-foreground">
               <Calendar className="w-5 h-5 text-primary" />
-              <span>March 15-17, 2024</span>
+              <span>March 15-17, 2025</span>
             </div>
             <div className="flex items-center space-x-2 text-muted-foreground">
               <MapPin className="w-5 h-5 text-primary" />
-              <span>Hogwarts Academy</span>
+              <span>Innovation Hub</span>
             </div>
             <div className="flex items-center space-x-2 text-muted-foreground">
               <Users className="w-5 h-5 text-primary" />

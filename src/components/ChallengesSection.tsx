@@ -10,45 +10,73 @@ const ChallengesSection = () => {
   const challenges = [
     {
       id: 1,
-      title: "The Dragon's Challenge",
-      subtitle: "First Task",
-      description: "Face the Hungarian Horntail of coding! Build a scalable web application that can handle massive traffic while maintaining performance. Your code must be as resilient as dragon scales.",
+      title: "AI for Green Economy",
+      subtitle: "Track 1",
+      description: "Develop AI-powered solutions that promote sustainability and environmental conservation. Create technologies that help reduce carbon footprint and support green initiatives.",
       image: dragonChallenge,
       icon: Flame,
       difficulty: "Intermediate",
-      duration: "24 Hours",
+      duration: "48 Hours",
       teams: "All Teams",
-      prize: "₹15,000",
-      skills: ["Frontend", "Backend", "Database", "API Design"],
-      color: "from-red-500 to-orange-500"
+      prize: "Special Recognition",
+      skills: ["AI/ML", "Environmental Tech", "Data Analysis", "Sustainability"],
+      color: "from-green-500 to-emerald-500"
     },
     {
       id: 2,
-      title: "The Mermaid's Task",
-      subtitle: "Second Task",
-      description: "Dive deep into the Black Lake of algorithms! Solve complex data challenges and create intelligent solutions that process information as gracefully as mermaids swim.",
+      title: "AI for Blue Economy",
+      subtitle: "Track 2", 
+      description: "Build AI solutions focused on marine and ocean technology. Develop systems that help protect our oceans while creating sustainable economic opportunities.",
       image: mermaidChallenge,
       icon: Fish,
       difficulty: "Advanced",
-      duration: "18 Hours",
-      teams: "Top 50%",
-      prize: "₹20,000",
-      skills: ["AI/ML", "Data Science", "Algorithms", "Analytics"],
+      duration: "48 Hours",
+      teams: "All Teams",
+      prize: "Special Recognition",
+      skills: ["AI/ML", "Ocean Tech", "Marine Data", "Sustainability"],
       color: "from-blue-500 to-teal-500"
     },
     {
       id: 3,
-      title: "The Triwizard Cup",
-      subtitle: "Final Task",
-      description: "The ultimate test awaits! Present your magical creation to the panel of expert judges. Only the most innovative and complete solutions will claim the Triwizard Cup.",
+      title: "Cyber Security",
+      subtitle: "Track 3",
+      description: "Create innovative cybersecurity solutions to protect digital infrastructure. Develop tools and systems that enhance security and privacy in our connected world.",
       image: finalChallenge,
       icon: Trophy,
       difficulty: "Expert",
-      duration: "12 Hours",
-      teams: "Top 20%",
-      prize: "₹50,000",
-      skills: ["Innovation", "Presentation", "UX/UI", "Impact"],
-      color: "from-yellow-500 to-amber-500"
+      duration: "48 Hours",
+      teams: "All Teams",
+      prize: "Special Recognition",
+      skills: ["Security", "Encryption", "Network Protection", "Privacy"],
+      color: "from-red-500 to-orange-500"
+    },
+    {
+      id: 4,
+      title: "Smart Education System",
+      subtitle: "Track 4",
+      description: "Design intelligent educational platforms that enhance learning experiences. Build AI-powered tools that make education more accessible and effective.",
+      image: dragonChallenge,
+      icon: Star,
+      difficulty: "Intermediate",
+      duration: "48 Hours",
+      teams: "All Teams",
+      prize: "Special Recognition",
+      skills: ["EdTech", "AI/ML", "UX/UI", "Learning Analytics"],
+      color: "from-purple-500 to-indigo-500"
+    },
+    {
+      id: 5,
+      title: "AI Smart Healthcare",
+      subtitle: "Track 5",
+      description: "Develop AI-driven healthcare solutions that improve patient care and medical processes. Create systems that make healthcare more efficient and accessible.",
+      image: mermaidChallenge,
+      icon: Users,
+      difficulty: "Advanced",
+      duration: "48 Hours",
+      teams: "All Teams",
+      prize: "Special Recognition",
+      skills: ["HealthTech", "AI/ML", "Medical Data", "Patient Care"],
+      color: "from-pink-500 to-rose-500"
     }
   ];
 
@@ -58,16 +86,16 @@ const ChallengesSection = () => {
         {/* Section header */}
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bold text-magical mb-6">
-            Three Trials of Mastery
+            Five Innovation Tracks
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Navigate through three increasingly challenging rounds, each designed to test different aspects 
-            of your magical coding abilities and innovative thinking.
+            Choose your track and develop cutting-edge solutions that address real-world challenges. 
+            Each track focuses on different aspects of technology and innovation.
           </p>
         </div>
 
         {/* Challenge cards */}
-        <div className="grid lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 mb-16">
           {challenges.map((challenge, index) => (
             <Card 
               key={challenge.id} 
@@ -92,7 +120,7 @@ const ChallengesSection = () => {
                 {/* Challenge number */}
                 <div className="absolute top-4 right-4">
                   <Badge variant="secondary" className="bg-primary text-primary-foreground">
-                    Task {challenge.id}
+                    Track {challenge.id}
                   </Badge>
                 </div>
               </div>
@@ -157,15 +185,15 @@ const ChallengesSection = () => {
         {/* Stats section */}
         <div className="grid md:grid-cols-4 gap-8 text-center">
           <div className="space-y-2">
-            <div className="text-4xl font-bold text-magical">3</div>
-            <div className="text-muted-foreground">Magical Challenges</div>
+            <div className="text-4xl font-bold text-magical">5</div>
+            <div className="text-muted-foreground">Innovation Tracks</div>
           </div>
           <div className="space-y-2">
             <div className="text-4xl font-bold text-magical">48</div>
-            <div className="text-muted-foreground">Hours of Magic</div>
+            <div className="text-muted-foreground">Hours of Innovation</div>
           </div>
           <div className="space-y-2">
-            <div className="text-4xl font-bold text-magical">₹85K+</div>
+            <div className="text-4xl font-bold text-magical">₹70K+</div>
             <div className="text-muted-foreground">Total Prize Pool</div>
           </div>
           <div className="space-y-2">

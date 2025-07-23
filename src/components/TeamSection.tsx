@@ -10,23 +10,25 @@ import member7 from '@/assets/team/member7.jpg';
 import member8 from '@/assets/team/member8.jpg';
 import member9 from '@/assets/team/member9.jpg';
 import member10 from '@/assets/team/member10.jpg';
+import vidhi from '@/assets/team/member1.jpg';
 
 const TeamSection = () => {
   const teamMembers = [
     {
       name: "Vidhi",
       role: "Lead Organizer",
-      bio: "Full-stack developer with 8+ years experience in AI and machine learning.",
-      image: member1,
+      bio: "Full-stack developer with 2+ years experience in AI and machine learning.",
+
+      image: vidhi,
       social: {
         github: "#",
         linkedin: "#",
-        email: "alex@hackspark2025.com"
+        email: "vidhiv671@gmail.com"
       }
     },
     {
       name: "Alok Kumar",
-      role: "Technical Director",
+      role: "Core Team Member",
       bio: "Software architect specializing in scalable web applications and cloud computing.",
       image: member2,
       social: {
@@ -37,7 +39,7 @@ const TeamSection = () => {
     },
     {
       name: "Jahanvi Rana",
-      role: "Community Manager",
+      role: "Core Team Member",
       bio: "DevRel expert passionate about building inclusive tech communities and mentorship.",
       image: member3,
       social: {
@@ -48,7 +50,7 @@ const TeamSection = () => {
     },
     {
       name: "Manpreet Singh",
-      role: "AI/ML Expert",
+      role: "Core Team Member",
       bio: "Data scientist and AI researcher with expertise in green technology solutions.",
       image: member4,
       social: {
@@ -59,7 +61,7 @@ const TeamSection = () => {
     },
     {
       name: "Abhay", 
-      role: "Cybersecurity Lead",
+      role: "Core Team Member",
       bio: "Security engineer and ethical hacker focused on protecting digital infrastructure.",
       image: member5,
       social: {
@@ -70,7 +72,7 @@ const TeamSection = () => {
     },
     {
       name: "Arushi Sandhu",
-      role: "UX Design Director",
+      role: "Core Team Member",
       bio: "Design strategist creating intuitive user experiences for educational technologies.",
       image: member6,
       social: {
@@ -81,7 +83,7 @@ const TeamSection = () => {
     },
     {
       name: "Mehak Deep Kaur",
-      role: "Senior Developer",
+      role: "Core Team Member",
       bio: "Veteran software engineer with deep expertise in healthcare technology systems.",
       image: member7,
       social: {
@@ -92,7 +94,7 @@ const TeamSection = () => {
     },
     {
       name: "ArshDeep Singh",
-      role: "Innovation Strategist",
+      role: "Core Team Member",
       bio: "Technology consultant specializing in blue economy and sustainable ocean tech.",
       image: member8,
       social: {
@@ -102,8 +104,8 @@ const TeamSection = () => {
       }
     },
     {
-      name: "Ahmed Hassan",
-      role: "Security Advisor",
+      name: "Kartik",
+      role: "Core Team Member",
       bio: "Cybersecurity consultant and blockchain developer focused on secure systems.",
       image: member9,
       social: {
@@ -114,7 +116,7 @@ const TeamSection = () => {
     },
     {
       name: "Rachel Green",
-      role: "Developer Relations",
+      role: "Core Team Member",
       bio: "Full-stack developer and educator passionate about smart healthcare solutions.",
       image: member10,
       social: {

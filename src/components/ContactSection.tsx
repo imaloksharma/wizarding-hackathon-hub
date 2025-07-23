@@ -8,7 +8,7 @@ const ContactSection = () => {
       icon: Mail,
       title: "Send us an Owl",
       description: "Get answers to all your magical questions",
-      contact: "wizards@hackathon.magic",
+      contact: "hackspark2025@gmail.com",
       action: "Email Us",
       color: "from-blue-500 to-purple-500"
     },
@@ -24,7 +24,7 @@ const ContactSection = () => {
       icon: Phone,
       title: "Crystal Ball Hotline",
       description: "Speak directly to our magical support team",
-      contact: "+91 9876543210",
+      contact: "+91 7986660521, +91 7761064230",
       action: "Call Us",
       color: "from-green-500 to-teal-500"
     }
@@ -32,7 +32,7 @@ const ContactSection = () => {
 
   const organizers = [
     {
-      name: "Hogwarts Academy of Technology",
+      name: "Khalsa College of Engineering and Technology, Amritsar",
       role: "Main Organizer",
       logo: "🏰",
       description: "Premier magical institution for technological education"
@@ -100,8 +100,8 @@ const ContactSection = () => {
               <Calendar className="w-12 h-12 text-primary mx-auto" />
               <h3 className="text-xl font-bold text-foreground">Event Dates</h3>
               <p className="text-muted-foreground">
-                March 15-17, 2024<br />
-                72 Hours of Magic
+                Sepetember 26-27, 2025<br />
+                24 Hours of Magic
               </p>
             </CardContent>
           </Card>
@@ -111,7 +111,7 @@ const ContactSection = () => {
               <MapPin className="w-12 h-12 text-primary mx-auto" />
               <h3 className="text-xl font-bold text-foreground">Location</h3>
               <p className="text-muted-foreground">
-                Hogwarts Academy<br />
+                KCET,AMRITSAR<br />
                 Great Hall, Platform 9¾
               </p>
             </CardContent>

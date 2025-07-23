@@ -16,7 +16,7 @@ const ChallengesSection = () => {
       image: dragonChallenge,
       icon: Flame,
       difficulty: "Intermediate",
-      duration: "48 Hours",
+      duration: "24 Hours",
       teams: "All Teams",
       prize: "Special Recognition",
       skills: ["AI/ML", "Environmental Tech", "Data Analysis", "Sustainability"],
@@ -30,7 +30,7 @@ const ChallengesSection = () => {
       image: mermaidChallenge,
       icon: Fish,
       difficulty: "Advanced",
-      duration: "48 Hours",
+      duration: "24 Hours",
       teams: "All Teams",
       prize: "Special Recognition",
       skills: ["AI/ML", "Ocean Tech", "Marine Data", "Sustainability"],
@@ -44,7 +44,7 @@ const ChallengesSection = () => {
       image: finalChallenge,
       icon: Trophy,
       difficulty: "Expert",
-      duration: "48 Hours",
+      duration: "24 Hours",
       teams: "All Teams",
       prize: "Special Recognition",
       skills: ["Security", "Encryption", "Network Protection", "Privacy"],
@@ -58,7 +58,7 @@ const ChallengesSection = () => {
       image: dragonChallenge,
       icon: Star,
       difficulty: "Intermediate",
-      duration: "48 Hours",
+      duration: "24 Hours",
       teams: "All Teams",
       prize: "Special Recognition",
       skills: ["EdTech", "AI/ML", "UX/UI", "Learning Analytics"],
@@ -72,7 +72,7 @@ const ChallengesSection = () => {
       image: mermaidChallenge,
       icon: Users,
       difficulty: "Advanced",
-      duration: "48 Hours",
+      duration: "24 Hours",
       teams: "All Teams",
       prize: "Special Recognition",
       skills: ["HealthTech", "AI/ML", "Medical Data", "Patient Care"],
@@ -102,7 +102,7 @@ const ChallengesSection = () => {
               className="group relative overflow-hidden bg-gradient-card border-border hover:shadow-glow transition-all duration-500 hover:scale-105"
             >
               {/* Challenge image */}
-              <div className="relative h-48 overflow-hidden">
+              <div className="relative h-24 overflow-hidden">
                 <img
                   src={challenge.image}
                   alt={challenge.title}
@@ -189,7 +189,7 @@ const ChallengesSection = () => {
             <div className="text-muted-foreground">Innovation Tracks</div>
           </div>
           <div className="space-y-2">
-            <div className="text-4xl font-bold text-magical">48</div>
+            <div className="text-4xl font-bold text-magical">24</div>
             <div className="text-muted-foreground">Hours of Innovation</div>
           </div>
           <div className="space-y-2">

@@ -38,7 +38,7 @@ const ContactSection = () => {
       description: "Premier magical institution for technological education"
     },
     {
-      name: "Ministry of Magic Tech",
+      name: "Hack With India",
       role: "Technology Partner",
       logo: "⚡",
       description: "Leading magical technology solutions provider"

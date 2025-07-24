@@ -193,7 +193,7 @@ const ChallengesSection = () => {
             <div className="text-muted-foreground">Hours of Innovation</div>
           </div>
           <div className="space-y-2">
-            <div className="text-4xl font-bold text-magical">₹70K+</div>
+            <div className="text-4xl font-bold text-magical">₹50K+</div>
             <div className="text-muted-foreground">Total Prize Pool</div>
           </div>
           <div className="space-y-2">

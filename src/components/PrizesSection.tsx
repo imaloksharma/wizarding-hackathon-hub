@@ -194,7 +194,7 @@ const PrizesSection = () => {
               Total Prize Pool
             </h3>
             <div className="text-6xl font-bold text-magical">
-              ₹70,000+
+              ₹50,000+
             </div>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Plus countless opportunities for internships, job placements, and career acceleration 

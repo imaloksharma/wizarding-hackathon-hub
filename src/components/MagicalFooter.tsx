@@ -33,7 +33,7 @@ const MagicalFooter = () => {
   const resources = [
     { name: "Registration Guide", href: "#" },
     { name: "Team Formation", href: "#" },
-    { name: "Code of Conduct", href: "#" },
+    { name: "Code of Conduct", href: "https://docs.google.com/document/d/1ta58gaozQHkNnPkAjWz6ZH-k2653KAO4fpJyA1aq3sY/edit?usp=sharing" },
     { name: "FAQs", href: "#" },
     { name: "Past Winners", href: "#" },
     { name: "Media Kit", href: "#" }
@@ -156,7 +156,7 @@ const MagicalFooter = () => {
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
                 Terms of Service
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://docs.google.com/document/d/1ta58gaozQHkNnPkAjWz6ZH-k2653KAO4fpJyA1aq3sY/edit?usp=sharing" className="text-muted-foreground hover:text-primary transition-colors">
                 Code of Conduct
               </a>
             </div>

@@ -114,17 +114,7 @@ const TeamSection = () => {
         email: "ahmed@hackspark2025.com"
       }
     },
-    {
-      name: "Rachel Green",
-      role: "Core Team Member",
-      bio: "Full-stack developer and educator passionate about smart healthcare solutions.",
-      image: member10,
-      social: {
-        github: "#",
-        linkedin: "#",
-        email: "rachel@hackspark2025.com"
-      }
-    }
+    
   ];
 
   return (

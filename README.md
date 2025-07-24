@@ -1,18 +1,18 @@
-# Welcome to your Lovable project
+# Welcome to My project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/852e76b6-0df4-4c51-a314-a18d846b2c2c
+**URL**: https://www.hackspark.in/
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
+**Use**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/852e76b6-0df4-4c51-a314-a18d846b2c2c) and start prompting.
+Simply visit the [ Project](https://www.hackspark.in/) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Changes made via will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
@@ -62,7 +62,7 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/852e76b6-0df4-4c51-a314-a18d846b2c2c) and click on Share -> Publish.
+Simply open [Alok](https://www.hackspark.in/) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?
 
@@ -70,4 +70,4 @@ Yes, you can!
 
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Read more here: [Setting up a custom domain](https://www.hackspark.in/e)

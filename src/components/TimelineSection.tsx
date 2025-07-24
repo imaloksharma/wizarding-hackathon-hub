@@ -5,7 +5,7 @@ import { Calendar, Clock, MapPin, Users, CheckCircle } from 'lucide-react';
 const TimelineSection = () => {
   const timelineEvents = [
     {
-      date: "March 10",
+      date: "September",
       time: "11:59 PM",
       title: "Registration Closes",
       description: "Last chance to register your team and secure your spot in the magical tournament.",
@@ -14,7 +14,7 @@ const TimelineSection = () => {
       color: "bg-blue-500"
     },
     {
-      date: "March 15",
+      date: "September",
       time: "9:00 AM",
       title: "Opening Ceremony",
       description: "Welcome to Hogwarts! Meet your fellow wizards, get your magical supplies, and receive the first challenge.",
@@ -23,7 +23,7 @@ const TimelineSection = () => {
       color: "bg-purple-500"
     },
     {
-      date: "March 15",
+      date: "September",
       time: "10:00 AM",
       title: "Dragon's Challenge Begins",
       description: "Face the Hungarian Horntail! 24 hours to build a scalable web application that breathes fire.",
@@ -32,7 +32,7 @@ const TimelineSection = () => {
       color: "bg-red-500"
     },
     {
-      date: "March 16",
+      date: "September",
       time: "10:00 AM",
       title: "Mermaid's Task Begins",
       description: "Dive into the Black Lake of algorithms. Top 50% teams advance to tackle data challenges.",
@@ -41,7 +41,7 @@ const TimelineSection = () => {
       color: "bg-blue-500"
     },
     {
-      date: "March 17",
+      date: "September",
       time: "4:00 AM",
       title: "Final Task Begins",
       description: "The Triwizard Cup awaits! Present your magical creation to expert judges.",
@@ -50,7 +50,7 @@ const TimelineSection = () => {
       color: "bg-yellow-500"
     },
     {
-      date: "March 17",
+      date: "September 26-27, 2025",
       time: "6:00 PM",
       title: "Awards Ceremony",
       description: "Celebrate the champions! Prize distribution and networking with industry leaders.",

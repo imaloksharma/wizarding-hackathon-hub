@@ -7,13 +7,13 @@ const PrizesSection = () => {
     {
       rank: "1st Place",
       title: "Triwizard Champions",
-      amount: "₹15,000",
+      amount: "₹Surprise",
       description: "The ultimate glory and recognition as the most skilled magical developers.",
       icon: Crown,
       gradient: "from-yellow-400 via-yellow-500 to-amber-600",
       shadowColor: "shadow-yellow-500/50",
       perks: [
-        "Cash Prize: ₹15,000",
+        "Cash Prize: ₹Surprise",
         "Internship opportunities at top tech companies",
         "Exclusive mentorship program",
         "Featured on our Hall of Fame",
@@ -23,13 +23,13 @@ const PrizesSection = () => {
     {
       rank: "2nd Place",
       title: "Order of Merlin",
-      amount: "₹10,000",
+      amount: "₹Surprise",
       description: "Exceptional magical abilities deserve exceptional recognition and rewards.",
       icon: Medal,
       gradient: "from-gray-300 via-gray-400 to-gray-500",
       shadowColor: "shadow-gray-400/50",
       perks: [
-        "Cash Prize: ₹10,000",
+        "Cash Prize: ₹Surprise",
         "Job placement assistance",
         "Tech conference tickets",
         "Professional swag package",
@@ -39,13 +39,13 @@ const PrizesSection = () => {
     {
       rank: "3rd Place",
       title: "House Cup Winners",
-      amount: "₹5,000",
+      amount: "₹Surprise",
       description: "Your magical journey has earned you a place among the most talented wizards.",
       icon: Trophy,
       gradient: "from-amber-600 via-amber-700 to-yellow-800",
       shadowColor: "shadow-amber-600/50",
       perks: [
-        "Cash Prize: ₹5,000",
+        "Cash Prize: ₹Surprise",
         "Industry networking events",
         "Online course vouchers",
         "Standard swag package",
@@ -58,28 +58,28 @@ const PrizesSection = () => {
     {
       title: "Best Innovation",
       description: "Most creative and innovative solution",
-      prize: "₹1000",
+      prize: "₹Surprise",
       icon: Star,
       color: "text-purple-500"
     },
     {
       title: "Best UI/UX",
       description: "Most beautiful and user-friendly design",
-      prize: "₹500",
+      prize: "₹Surprise",
       icon: Award,
       color: "text-pink-500"
     },
     {
       title: "Best Tech Implementation",
       description: "Most impressive technical achievement",
-      prize: "₹500",
+      prize: "₹Surprise",
       icon: Gift,
       color: "text-blue-500"
     },
     {
       title: "People's Choice",
       description: "Voted by fellow participants",
-      prize: "₹5,00",
+      prize: "₹Surprise",
       icon: Star,
       color: "text-green-500"
     }

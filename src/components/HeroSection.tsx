@@ -15,7 +15,7 @@ const HeroSection = () => {
           {/* Badge */}
           <Badge variant="secondary" className="px-6 py-2 text-lg font-medium bg-card/60 backdrop-blur-sm">
             <Trophy className="w-5 h-5 mr-2" />
-            Grand Prize: ₹30,000
+            Grand Prize: ₹100000
           </Badge>
 
           {/* Main title */}

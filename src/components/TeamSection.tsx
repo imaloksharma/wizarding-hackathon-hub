@@ -27,7 +27,7 @@ const TeamSection = () => {
       }
     },
   {
-      name: "Mehak Deep Kaur",
+      name: "Mehakdeep Kaur",
       role: "Marketing Lead",
       bio: "Veteran software engineer with deep expertise in healthcare technology systems.",
       image: member7,
@@ -93,7 +93,7 @@ const TeamSection = () => {
       }
     },
     {
-      name: "ArshDeep Singh",
+      name: "Arshdeep Singh",
       role: "Logistics Lead",
       bio: "Technology consultant specializing in blue economy and sustainable ocean tech.",
       image: member8,
@@ -104,7 +104,7 @@ const TeamSection = () => {
       }
     },
     {
-      name: "Kartik",
+      name: "Kartik Mahajan",
       role: "Logistic",
       bio: "Cybersecurity consultant and blockchain developer focused on secure systems.",
       image: member9,

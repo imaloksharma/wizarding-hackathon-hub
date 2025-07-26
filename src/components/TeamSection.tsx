@@ -26,94 +26,106 @@ const TeamSection = () => {
         email: "vidhiv671@gmail.com"
       }
     },
-    {
-      name: "Alok Kumar",
-      role: "Core Team Member",
-      bio: "Software architect specializing in scalable web applications and cloud computing.",
-      image: member2,
-      social: {
-        github: "#",
-        linkedin: "#",
-        email: "sarah@hackspark2025.com"
-      }
-    },
-    {
-      name: "Jahanvi Rana",
-      role: "Core Team Member",
-      bio: "DevRel expert passionate about building inclusive tech communities and mentorship.",
-      image: member3,
-      social: {
-        github: "#",
-        linkedin: "#",
-        email: "marcus@hackspark2025.com"
-      }
-    },
-    {
-      name: "Manpreet Singh",
-      role: "Core Team Member",
-      bio: "Data scientist and AI researcher with expertise in green technology solutions.",
-      image: member4,
-      social: {
-        github: "#",
-        linkedin: "#",
-        email: "priya@hackspark2025.com"
-      }
-    },
-    {
-      name: "Abhay", 
-      role: "Core Team Member",
-      bio: "Security engineer and ethical hacker focused on protecting digital infrastructure.",
-      image: member5,
-      social: {
-        github: "#",
-        linkedin: "#",
-        email: "david@hackspark2025.com"
-      }
-    },
-    {
-      name: "Arushi Sandhu",
-      role: "Core Team Member",
-      bio: "Design strategist creating intuitive user experiences for educational technologies.",
-      image: member6,
-      social: {
-        github: "#",
-        linkedin: "#",
-        email: "emma@hackspark2025.com"
-      }
-    },
-    {
+  {
       name: "Mehak Deep Kaur",
-      role: "Core Team Member",
+      role: "Marketing Lead",
       bio: "Veteran software engineer with deep expertise in healthcare technology systems.",
       image: member7,
       social: {
         github: "#",
         linkedin: "#",
-        email: "james@hackspark2025.com"
+        email: "#"
+      }
+    },
+    {
+      name: "Jahanvi Rana",
+      role: "Sponsership Lead",
+      bio: "DevRel expert passionate about building inclusive tech communities and mentorship.",
+      image: member3,
+      social: {
+        github: "#",
+        linkedin: "#",
+        email: "#"
+      }
+    },
+    {
+      name: "Manpreet Singh",
+      role: "Registration Lead",
+      bio: "Data scientist and AI researcher with expertise in green technology solutions.",
+      image: member4,
+      social: {
+        github: "#",
+        linkedin: "#",
+        email: "#"
+      }
+    },
+    {
+      name: "Abhay", 
+      role: "All Events Management Lead",
+      bio: "Security engineer and ethical hacker focused on protecting digital infrastructure.",
+      image: member5,
+      social: {
+        github: "#",
+        linkedin: "#",
+        email: "#"
+      }
+    },
+    {
+      name: "Arushi Sandhu",
+      role: "Graphics Designer Lead",
+      bio: "Design strategist creating intuitive user experiences for educational technologies.",
+      image: member6,
+      social: {
+        github: "#",
+        linkedin: "#",
+        email: "#"
+      }
+    },
+    {
+      name: "Aayushi Goel",
+      role: "Graphics Designer",
+      bio: "Cybersecurity & AI Learner | Hackathons, Open Source & Bug Bounty Explorer | Building in Public | Open to Collabs, Ideas & Real Conversations",
+      image: member10,
+      social: {
+        github: "#",
+        linkedin: "#",
+        email: "#"
       }
     },
     {
       name: "ArshDeep Singh",
-      role: "Core Team Member",
+      role: "Logistics Lead",
       bio: "Technology consultant specializing in blue economy and sustainable ocean tech.",
       image: member8,
       social: {
         github: "#",
         linkedin: "#",
-        email: "lisa@hackspark2025.com"
+        email: "#"
       }
     },
     {
       name: "Kartik",
-      role: "Core Team Member",
+      role: "Logistic",
       bio: "Cybersecurity consultant and blockchain developer focused on secure systems.",
       image: member9,
       social: {
         github: "#",
         linkedin: "#",
-        email: "ahmed@hackspark2025.com"
+        email: "#"
       }
     },
+      {
+      name: "Alok Kumar",
+      role: "Technical Support ",
+      bio: "Software architect specializing in scalable web applications and cloud computing.",
+      image: member2,
+      social: {
+        github: "#",
+        linkedin: "#",
+        email: "#"
+      }
+    },
+    
     
   ];
 

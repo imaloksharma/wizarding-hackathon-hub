@@ -60,7 +60,7 @@ const TeamSection = () => {
       }
     },
     {
-      name: "Abhay", 
+      name: "Abhay Kaushal", 
       role: "All Events Management Lead",
       bio: "Security engineer and ethical hacker focused on protecting digital infrastructure.",
       image: member5,

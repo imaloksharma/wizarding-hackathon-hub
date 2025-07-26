@@ -44,7 +44,7 @@ const SponsorsSection = () => {
               <img
                 src={sponsor.logo}
                 alt={sponsor.name}
-                className="h-16 md:h-20 w-auto object-contain filter brightness-0 invert opacity-70 group-hover:filter-none group-hover:opacity-100 transition-all duration-500"
+                className="h-16 md:h-20 w-auto object-contain group-hover:scale-110 transition-all duration-500"
               />
             </div>
           ))}

@@ -66,7 +66,7 @@ const CommunityPartnersSection = () => {
                   <img
                     src={partner.logo}
                     alt={partner.name}
-                    className="w-20 h-20 mx-auto object-contain filter brightness-0 invert group-hover:filter-none transition-all duration-500"
+                    className="w-20 h-20 mx-auto object-contain group-hover:scale-110 transition-all duration-500"
                   />
                 </div>
                 <h3 className="text-sm font-semibold text-foreground group-hover:text-primary transition-colors">

@@ -84,47 +84,44 @@ const MagicalNavigation = () => {
         </div>
       </nav>
 
-      {/* Header Logos Section */}
-      <div className="fixed top-16 left-0 right-0 z-40 bg-gradient-to-r from-background/95 via-card/95 to-background/95 backdrop-blur-sm border-b border-border/50">
-        <div className="container mx-auto px-4 py-3">
-          <div className="flex items-center justify-center space-x-8 md:space-x-16">
-            <div className="group flex items-center space-x-2">
+      {/* Header Logos Section - Circular Layout */}
+      <div className="fixed top-20 left-1/2 transform -translate-x-1/2 z-40">
+        <div className="relative w-32 h-32">
+          {/* Logo 1 - Top */}
+          <div className="absolute top-0 left-1/2 transform -translate-x-1/2 group">
+            <div className="w-12 h-12 bg-card/80 backdrop-blur-sm rounded-full p-2 border border-border/50 hover:border-primary/50 transition-all duration-300 shadow-lg hover:shadow-xl">
               <img
                 src={kcetLogo}
-                alt="Khalsa College of Engineering and Technology"
-                className="h-10 w-10 object-contain group-hover:scale-110 transition-all duration-300"
+                alt="KCET Amritsar"
+                className="w-full h-full object-contain group-hover:scale-110 transition-all duration-300"
               />
-              <span className="hidden md:block text-xs text-muted-foreground group-hover:text-primary transition-colors">
-                KCET Amritsar
-              </span>
             </div>
-            
-            <div className="h-8 w-px bg-border/50"></div>
-            
-            <div className="group flex items-center space-x-2">
+          </div>
+
+          {/* Logo 2 - Bottom Left */}
+          <div className="absolute bottom-0 left-0 group">
+            <div className="w-12 h-12 bg-card/80 backdrop-blur-sm rounded-full p-2 border border-border/50 hover:border-primary/50 transition-all duration-300 shadow-lg hover:shadow-xl">
               <img
                 src={hackWithIndiaLogo}
                 alt="Hack with India"
-                className="h-10 w-10 object-contain group-hover:scale-110 transition-all duration-300"
+                className="w-full h-full object-contain group-hover:scale-110 transition-all duration-300"
               />
-              <span className="hidden md:block text-xs text-muted-foreground group-hover:text-primary transition-colors">
-                Hack with India
-              </span>
             </div>
-            
-            <div className="h-8 w-px bg-border/50"></div>
-            
-            <div className="group flex items-center space-x-2">
+          </div>
+
+          {/* Logo 3 - Bottom Right */}
+          <div className="absolute bottom-0 right-0 group">
+            <div className="w-12 h-12 bg-card/80 backdrop-blur-sm rounded-full p-2 border border-border/50 hover:border-primary/50 transition-all duration-300 shadow-lg hover:shadow-xl">
               <img
                 src={hacksparkHeaderLogo}
                 alt="HackSpark"
-                className="h-12 w-auto object-contain group-hover:scale-110 transition-all duration-300"
+                className="w-full h-full object-contain group-hover:scale-110 transition-all duration-300"
               />
-              <span className="hidden md:block text-xs text-muted-foreground group-hover:text-primary transition-colors">
-                Official Event
-              </span>
             </div>
           </div>
+
+          {/* Center connecting lines (optional decorative element) */}
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-primary/30 rounded-full animate-pulse"></div>
         </div>
       </div>
     </>

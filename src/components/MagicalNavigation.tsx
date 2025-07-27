@@ -45,7 +45,7 @@ const MagicalNavigation = () => {
                 HackSpark ⚡
               </span>
               <span className="text-sm text-muted-foreground font-medium hidden sm:block">
-                Wizarding Code Tournament
+                Hack Spark
               </span>
             </Link>
 

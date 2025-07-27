@@ -99,6 +99,18 @@ export default {
 				'magical-pulse': {
 					'0%, 100%': { boxShadow: 'var(--shadow-magical)' },
 					'50%': { boxShadow: 'var(--shadow-glow)' }
+				},
+				'magical-shimmer': {
+					'0%, 100%': { filter: 'drop-shadow(0 0 10px hsl(48 96% 65% / 0.5)) hue-rotate(0deg)' },
+					'50%': { filter: 'drop-shadow(0 0 20px hsl(258 90% 66% / 0.7)) hue-rotate(60deg)' }
+				},
+				'lightning-strike': {
+					'0%': { left: '-100%' },
+					'100%': { left: '100%' }
+				},
+				'levitate': {
+					'0%, 100%': { transform: 'translateY(0px) rotate(0deg)' },
+					'50%': { transform: 'translateY(-20px) rotate(5deg)' }
 				}
 			},
 			animation: {
@@ -106,7 +118,10 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'sparkle': 'sparkle 20s linear infinite',
 				'float': 'float 3s ease-in-out infinite',
-				'magical-pulse': 'magical-pulse 2s ease-in-out infinite'
+				'magical-pulse': 'magical-pulse 2s ease-in-out infinite',
+				'magical-shimmer': 'magical-shimmer 3s ease-in-out infinite',
+				'lightning-strike': 'lightning-strike 2s infinite',
+				'levitate': 'levitate 4s ease-in-out infinite'
 			}
 		}
 	},

@@ -84,46 +84,6 @@ const MagicalNavigation = () => {
         </div>
       </nav>
 
-      {/* Header Logos Section - Circular Layout */}
-      <div className="fixed top-20 left-1/2 transform -translate-x-1/2 z-40">
-        <div className="relative w-32 h-32">
-          {/* Logo 1 - Top */}
-          <div className="absolute top-0 left-1/2 transform -translate-x-1/2 group">
-            <div className="w-12 h-12 bg-card/80 backdrop-blur-sm rounded-full p-2 border border-border/50 hover:border-primary/50 transition-all duration-300 shadow-lg hover:shadow-xl">
-              <img
-                src={kcetLogo}
-                alt="KCET Amritsar"
-                className="w-full h-full object-contain group-hover:scale-110 transition-all duration-300"
-              />
-            </div>
-          </div>
-
-          {/* Logo 2 - Bottom Left */}
-          <div className="absolute bottom-0 left-0 group">
-            <div className="w-12 h-12 bg-card/80 backdrop-blur-sm rounded-full p-2 border border-border/50 hover:border-primary/50 transition-all duration-300 shadow-lg hover:shadow-xl">
-              <img
-                src={hackWithIndiaLogo}
-                alt="Hack with India"
-                className="w-full h-full object-contain group-hover:scale-110 transition-all duration-300"
-              />
-            </div>
-          </div>
-
-          {/* Logo 3 - Bottom Right */}
-          <div className="absolute bottom-0 right-0 group">
-            <div className="w-12 h-12 bg-card/80 backdrop-blur-sm rounded-full p-2 border border-border/50 hover:border-primary/50 transition-all duration-300 shadow-lg hover:shadow-xl">
-              <img
-                src={hacksparkHeaderLogo}
-                alt="HackSpark"
-                className="w-full h-full object-contain group-hover:scale-110 transition-all duration-300"
-              />
-            </div>
-          </div>
-
-          {/* Center connecting lines (optional decorative element) */}
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-primary/30 rounded-full animate-pulse"></div>
-        </div>
-      </div>
     </>
   );
 };

@@ -15,22 +15,19 @@ const HeroSection = () => {
           {/* Badge */}
           <Badge variant="secondary" className="px-6 py-2 text-lg font-medium bg-card/60 backdrop-blur-sm">
             <Trophy className="w-5 h-5 mr-2" />
-            Grand Prize: ₹100000
+            Grand Prize: ₹1,00,000
           </Badge>
 
           {/* Main title */}
           <div className="space-y-4">
-            <h1 className="text-6xl md:text-8xl font-bold text-magical leading-tight lightning-border">
-              HackSpark ⚡
+            <h1 className="text-6xl md:text-8xl font-bold text-magical leading-tight">
+              HackSpark
             </h1>
             <h1 className="text-6xl md:text-8xl font-bold text-magical leading-tight">
               2025
             </h1>
             <p className="text-2xl md:text-3xl text-muted-foreground font-semibold mt-6">
-              🏰 Where Magic Meets Innovation 🧙‍♂️
-            </p>
-            <p className="text-lg text-accent font-medium">
-              "It is our choices, Harry, that show what we truly are, far more than our abilities." - Dumbledore
+              Where Magic Meets Innovation
             </p>
           </div>
 
@@ -38,7 +35,6 @@ const HeroSection = () => {
           <p className="text-xl text-foreground max-w-3xl mx-auto leading-relaxed">
             Join the ultimate magical coding tournament where developers cast spells with code, 
             conjure innovative solutions, and compete for legendary prizes in three mystical challenges.
-            Will you be sorted into the house of champions? 🏆
           </p>
 
           {/* Event details */}
@@ -53,17 +49,17 @@ const HeroSection = () => {
             </div>
             <div className="flex items-center space-x-2 text-muted-foreground">
               <Users className="w-5 h-5 text-primary" />
-              <span>Teams of 3-5 Coding Wizards 🧙‍♂️</span>
+              <span>Teams of 3-5 Wizards</span>
             </div>
           </div>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
-            <Button variant="hero" size="xl" className="animate-magical-pulse magical-cursor">
-              🪄 Cast Your Spell - Register Now
+            <Button variant="hero" size="xl" className="animate-magical-pulse">
+              Cast Your Spell - Register Now 
             </Button>
-            <Button variant="outline" size="lg" className="magical-cursor">
-              📜 Learn About the Three Challenges
+            <Button variant="outline" size="lg">
+              Learn More About Challenges
             </Button>
           </div>
 

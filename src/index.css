@@ -225,4 +225,28 @@
   .magical-card:hover::after {
     opacity: 1;
   }
+
+  /* Magical arrow navigation */
+  .magical-arrow {
+    transition: var(--transition-magical);
+    filter: drop-shadow(0 0 10px hsl(48 96% 65% / 0.3));
+  }
+
+  .magical-arrow:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 20px hsl(48 96% 65% / 0.6));
+  }
+
+  @keyframes arrow-glow {
+    0%, 100% { 
+      filter: drop-shadow(0 0 10px hsl(48 96% 65% / 0.3)); 
+    }
+    50% { 
+      filter: drop-shadow(0 0 20px hsl(258 90% 66% / 0.5)); 
+    }
+  }
+
+  .arrow-glow {
+    animation: arrow-glow 2s ease-in-out infinite;
+  }
 }

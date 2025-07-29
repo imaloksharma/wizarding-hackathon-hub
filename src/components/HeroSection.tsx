@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Calendar, MapPin, Users, Trophy } from 'lucide-react';
+import { Calendar, MapPin, Users, Trophy, MessageCircle } from 'lucide-react';
 import magicalWand from '@/assets/magical-wand.jpg';
 
 const HeroSection = () => {
@@ -55,11 +55,29 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
-            <Button variant="hero" size="xl" className="animate-magical-pulse">
+            <Button 
+              variant="hero" 
+              size="xl" 
+              className="animate-magical-pulse"
+              onClick={() => window.open('https://devnovate.co/event/hackspark-2025-genai-hackathon', '_blank')}
+            >
               Cast Your Spell - Register Now 
             </Button>
             <Button variant="outline" size="lg">
               Learn More About Challenges
+            </Button>
+          </div>
+
+          {/* WhatsApp Join Button */}
+          <div className="flex justify-center pt-4">
+            <Button 
+              variant="secondary" 
+              size="lg" 
+              className="magical-card bg-green-600 hover:bg-green-700 text-white border-green-500"
+              onClick={() => window.open('https://chat.whatsapp.com/DbNq17fZ6eg2PQkEsqX62O', '_blank')}
+            >
+              <MessageCircle className="w-5 h-5 mr-2" />
+              Join WhatsApp Community
             </Button>
           </div>
 

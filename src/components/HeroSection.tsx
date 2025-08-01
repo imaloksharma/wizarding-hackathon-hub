@@ -29,13 +29,13 @@ const HeroSection = () => {
             <h1 className="text-6xl md:text-8xl font-bold text-magical leading-tight">
               2025
             </h1>
-            <p className="text-2xl md:text-3xl text-muted-foreground font-semibold mt-6">
+            <p className="text-2xl md:text-3xl text-muted-foreground font-semibold mt-6 italic">
               Where Magic Meets Innovation
             </p>
           </div>
 
           {/* Description */}
-          <p className="text-xl text-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-foreground max-w-3xl mx-auto leading-relaxed italic">
             Join the ultimate magical coding tournament where developers cast spells with code, 
             conjure innovative solutions, and compete for legendary prizes in three mystical challenges.
           </p>

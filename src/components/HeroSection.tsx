@@ -21,10 +21,7 @@ const HeroSection = () => {
           {/* Main title */}
           <div className="space-y-4">
             <h1 className="text-4xl md:text-6xl font-bold text-magical leading-tight">
-              Khalsa College of Engineering and Technology
-            </h1>
-            <h1 className="text-4xl md:text-6xl font-bold text-magical leading-tight">
-              Amritsar Grand Welcome to
+              Khalsa College of Engineering and Technology Amritsar Grand Welcome to
             </h1>
             <h1 className="text-6xl md:text-8xl font-bold text-magical leading-tight">
               HackSpark

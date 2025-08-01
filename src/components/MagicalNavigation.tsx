@@ -17,6 +17,7 @@ const MagicalNavigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
+    { name: 'Home', href: '/' },
     { name: 'About', href: '#about' },
     { name: 'Challenges', href: '#challenges' },
     { name: 'Prizes', href: '#prizes' },

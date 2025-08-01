@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Flame, Fish, Trophy, Clock, Users, Star } from 'lucide-react';
+import { Flame, Fish, Trophy, Clock, Users, Star, Lightbulb } from 'lucide-react';
 import dragonChallenge from '@/assets/dragon-challenge.jpg';
 import mermaidChallenge from '@/assets/mermaid-challenge.jpg';
 import finalChallenge from '@/assets/final-challenge.jpg';
@@ -77,6 +77,20 @@ const ChallengesSection = () => {
       prize: "Special Recognition",
       skills: ["HealthTech", "AI/ML", "Medical Data", "Patient Care"],
       color: "from-pink-500 to-rose-500"
+    },
+    {
+      id: 6,
+      title: "Open Innovation",
+      subtitle: "Track 6",
+      description: "Unlimited creativity track where teams can develop innovative solutions in any domain. Push boundaries and create disruptive technologies without restrictions.",
+      image: finalChallenge,
+      icon: Lightbulb,
+      difficulty: "Open",
+      duration: "24 Hours",
+      teams: "All Teams",
+      prize: "Special Recognition",
+      skills: ["Innovation", "Cross-domain", "Creative Thinking", "Any Tech"],
+      color: "from-yellow-500 to-orange-500"
     }
   ];
 
@@ -86,7 +100,7 @@ const ChallengesSection = () => {
         {/* Section header */}
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bold text-magical mb-6">
-            Five Innovation Tracks
+            Six Innovation Tracks
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Choose your track and develop cutting-edge solutions that address real-world challenges. 
@@ -185,7 +199,7 @@ const ChallengesSection = () => {
         {/* Stats section */}
         <div className="grid md:grid-cols-4 gap-8 text-center">
           <div className="space-y-2">
-            <div className="text-4xl font-bold text-magical">5</div>
+            <div className="text-4xl font-bold text-magical">6</div>
             <div className="text-muted-foreground">Innovation Tracks</div>
           </div>
           <div className="space-y-2">

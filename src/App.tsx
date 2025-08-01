@@ -9,6 +9,7 @@ import Brochure from "./pages/Brochure";
 import Schedule from "./pages/Schedule";
 import Rules from "./pages/Rules";
 import NotFound from "./pages/NotFound";
+import OpenInnovation from "./pages/tracks/OpenInnovation";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,7 @@ const App = () => (
             <Route path="/brochure" element={<Brochure />} />
             <Route path="/schedule" element={<Schedule />} />
             <Route path="/rules" element={<Rules />} />
+            <Route path="/tracks/open-innovation" element={<OpenInnovation />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

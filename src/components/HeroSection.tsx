@@ -20,9 +20,21 @@ const HeroSection = () => {
 
           {/* Main title */}
           <div className="space-y-4">
-            <h1 className="text-4xl md:text-6xl font-bold text-magical leading-tight">
-              Khalsa College of Engineering and Technology Grand Welcome to
-            </h1>
+            <div className="relative">
+              <h1 className="text-3xl md:text-5xl font-bold text-muted-foreground leading-tight mb-2">
+                Khalsa College of Engineering and Technology
+              </h1>
+              <div className="flex items-center justify-center gap-4 my-6">
+                <div className="h-px bg-gradient-to-r from-transparent via-primary to-transparent flex-1"></div>
+                <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-shimmer leading-tight px-4">
+                  🎉 GRAND WELCOME 🎉
+                </h1>
+                <div className="h-px bg-gradient-to-r from-transparent via-primary to-transparent flex-1"></div>
+              </div>
+              <h1 className="text-2xl md:text-4xl font-medium text-muted-foreground leading-tight">
+                to
+              </h1>
+            </div>
             <h1 className="text-6xl md:text-8xl font-bold text-magical leading-tight">
               HackSpark
             </h1>

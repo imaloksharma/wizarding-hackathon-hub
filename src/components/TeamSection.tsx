@@ -116,7 +116,7 @@ const TeamSection = () => {
     },
       {
       name: "Alok Kumar",
-      role: "Technical Support ",
+      role: "Core Team Member",
       bio: "Software architect specializing in scalable web applications and cloud computing.",
       image: member2,
       social: {

@@ -1,7 +1,9 @@
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Calendar, MapPin, Users, Trophy, MessageCircle } from 'lucide-react';
-import magicalWand from '@/assets/magical-wand.jpg';
+import harryPotterWand from '@/assets/harry-potter-wand.jpg';
+import hermioneWand from '@/assets/hermione-wand.jpg';
+import elderWand from '@/assets/elder-wand.jpg';
 
 const HeroSection = () => {
   return (
@@ -96,13 +98,55 @@ const HeroSection = () => {
             </Button>
           </div>
 
-          {/* Magical wand image */}
+          {/* Harry Potter wands showcase */}
           <div className="mt-12 relative">
-            <img
-              src={magicalWand}
-              alt="Magical Wand"
-              className="mx-auto w-full max-w-2xl rounded-lg shadow-glow opacity-90 hover:opacity-100 transition-opacity duration-500"
-            />
+            <h3 className="text-2xl font-bold text-magical mb-8">Choose Your Magical Wand</h3>
+            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+              {/* Harry Potter's Wand */}
+              <div className="group relative overflow-hidden rounded-lg magical-card">
+                <img
+                  src={harryPotterWand}
+                  alt="Harry Potter's Wand"
+                  className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h4 className="text-lg font-bold">Harry's Wand</h4>
+                  <p className="text-sm opacity-90">Holly & Phoenix Feather</p>
+                </div>
+                <div className="absolute inset-0 bg-yellow-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              </div>
+
+              {/* Hermione's Wand */}
+              <div className="group relative overflow-hidden rounded-lg magical-card">
+                <img
+                  src={hermioneWand}
+                  alt="Hermione's Wand"
+                  className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h4 className="text-lg font-bold">Hermione's Wand</h4>
+                  <p className="text-sm opacity-90">Vine & Dragon Heartstring</p>
+                </div>
+                <div className="absolute inset-0 bg-blue-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              </div>
+
+              {/* Elder Wand */}
+              <div className="group relative overflow-hidden rounded-lg magical-card">
+                <img
+                  src={elderWand}
+                  alt="Elder Wand"
+                  className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h4 className="text-lg font-bold">Elder Wand</h4>
+                  <p className="text-sm opacity-90">Elder & Thestral Tail Hair</p>
+                </div>
+                <div className="absolute inset-0 bg-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

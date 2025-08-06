@@ -26,17 +26,18 @@ const TeamSection = () => {
         email: "vidhiv671@gmail.com"
       }
     },
-  {
-      name: "Mehakdeep Kaur",
-      role: "Marketing Lead",
-      bio: "Veteran software engineer with deep expertise in healthcare technology systems.",
-      image: member7,
+      {
+      name: "Alok Kumar",
+      role: "Co-Organizer",
+      bio: "Software architect specializing in scalable web applications and cloud computing.",
+      image: member2,
       social: {
         github: "#",
         linkedin: "#",
         email: "#"
       }
     },
+  
     {
       name: "Jahanvi Rana",
       role: "Sponsership Lead",
@@ -82,10 +83,10 @@ const TeamSection = () => {
       }
     },
     {
-      name: "Aayushi Goel",
-      role: "Graphics Designer",
-      bio: "Cybersecurity & AI Learner | Hackathons, Open Source & Bug Bounty Explorer | Building in Public | Open to Collabs, Ideas & Real Conversations",
-      image: member10,
+      name: "Mehakdeep Kaur",
+      role: "Marketing Lead",
+      bio: "Veteran software engineer with deep expertise in healthcare technology systems.",
+      image: member7,
       social: {
         github: "#",
         linkedin: "#",
@@ -114,21 +115,19 @@ const TeamSection = () => {
         email: "#"
       }
     },
-      {
-      name: "Alok Kumar",
-      role: "co-Organizer",
-      bio: "Software architect specializing in scalable web applications and cloud computing.",
-      image: member2,
+    {
+      name: "Aayushi Goel",
+      role: "Graphics Designer",
+      bio: "Cybersecurity & AI Learner | Hackathons, Open Source & Bug Bounty Explorer | Building in Public | Open to Collabs, Ideas & Real Conversations",
+      image: member10,
       social: {
         github: "#",
         linkedin: "#",
         email: "#"
       }
-    },
-    
-    
+    },    
   ];
-
+  
   return (
     <section id="team" className="py-24 relative">
       <div className="container mx-auto px-4">

@@ -1,10 +1,14 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Flame, Fish, Trophy, Clock, Users, Star, Lightbulb } from 'lucide-react';
-import dragonChallenge from '@/assets/dragon-challenge.jpg';
-import mermaidChallenge from '@/assets/mermaid-challenge.jpg';
-import finalChallenge from '@/assets/final-challenge.jpg';
+import { Flame, Fish, Trophy, Clock, Users, Star, Lightbulb, ChevronDown } from 'lucide-react';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+import aiGreenEconomyImg from '@/assets/tracks/ai-green-economy.jpg';
+import aiBlueEconomyImg from '@/assets/tracks/ai-blue-economy.jpg';
+import cyberSecurityImg from '@/assets/tracks/cyber-security.jpg';
+import smartEducationImg from '@/assets/tracks/smart-education.jpg';
+import aiHealthcareImg from '@/assets/tracks/ai-healthcare.jpg';
+import openInnovationImg from '@/assets/tracks/open-innovation.jpg';
 
 const ChallengesSection = () => {
   const challenges = [
@@ -13,7 +17,7 @@ const ChallengesSection = () => {
       title: "AI for Green Economy",
       subtitle: "Track 1",
       description: "Develop AI-powered solutions that promote sustainability and environmental conservation. Create technologies that help reduce carbon footprint and support green initiatives.",
-      image: dragonChallenge,
+      image: aiGreenEconomyImg,
       icon: Flame,
       difficulty: "Intermediate",
       duration: "24 Hours",
@@ -27,7 +31,7 @@ const ChallengesSection = () => {
       title: "AI for Blue Economy",
       subtitle: "Track 2", 
       description: "Build AI solutions focused on marine and ocean technology. Develop systems that help protect our oceans while creating sustainable economic opportunities.",
-      image: mermaidChallenge,
+      image: aiBlueEconomyImg,
       icon: Fish,
       difficulty: "Advanced",
       duration: "24 Hours",
@@ -41,7 +45,7 @@ const ChallengesSection = () => {
       title: "Cyber Security",
       subtitle: "Track 3",
       description: "Create innovative cybersecurity solutions to protect digital infrastructure. Develop tools and systems that enhance security and privacy in our connected world.",
-      image: finalChallenge,
+      image: cyberSecurityImg,
       icon: Trophy,
       difficulty: "Expert",
       duration: "24 Hours",
@@ -55,7 +59,7 @@ const ChallengesSection = () => {
       title: "Smart Education System",
       subtitle: "Track 4",
       description: "Design intelligent educational platforms that enhance learning experiences. Build AI-powered tools that make education more accessible and effective.",
-      image: dragonChallenge,
+      image: smartEducationImg,
       icon: Star,
       difficulty: "Intermediate",
       duration: "24 Hours",
@@ -69,7 +73,7 @@ const ChallengesSection = () => {
       title: "AI Smart Healthcare",
       subtitle: "Track 5",
       description: "Develop AI-driven healthcare solutions that improve patient care and medical processes. Create systems that make healthcare more efficient and accessible.",
-      image: mermaidChallenge,
+      image: aiHealthcareImg,
       icon: Users,
       difficulty: "Advanced",
       duration: "24 Hours",
@@ -83,7 +87,7 @@ const ChallengesSection = () => {
       title: "Open Innovation",
       subtitle: "Track 6",
       description: "Unlimited creativity track where teams can develop innovative solutions in any domain. Push boundaries and create disruptive technologies without restrictions.",
-      image: finalChallenge,
+      image: openInnovationImg,
       icon: Lightbulb,
       difficulty: "Open",
       duration: "24 Hours",
@@ -108,93 +112,109 @@ const ChallengesSection = () => {
           </p>
         </div>
 
-        {/* Challenge cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 mb-16">
+        {/* Challenge accordion */}
+        <Accordion type="single" collapsible className="w-full mb-16">
           {challenges.map((challenge, index) => (
-            <Card 
-              key={challenge.id} 
-              className="group relative overflow-hidden bg-gradient-card border-border hover:shadow-glow transition-all duration-500 hover:scale-105"
-            >
-              {/* Challenge image */}
-              <div className="relative h-24 overflow-hidden">
-                <img
-                  src={challenge.image}
-                  alt={challenge.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-                <div className={`absolute inset-0 bg-gradient-to-t ${challenge.color} opacity-20 group-hover:opacity-30 transition-opacity`}></div>
-                
-                {/* Challenge icon */}
-                <div className="absolute top-4 left-4">
-                  <div className="bg-card/80 backdrop-blur-sm p-3 rounded-full shadow-magical">
-                    <challenge.icon className="w-6 h-6 text-primary" />
+            <AccordionItem key={challenge.id} value={`track-${challenge.id}`} className="border rounded-lg mb-4 overflow-hidden bg-gradient-card">
+              <AccordionTrigger className="px-6 py-4 hover:no-underline group">
+                <div className="flex items-center space-x-4 w-full">
+                  {/* Track image */}
+                  <div className="relative w-20 h-20 rounded-lg overflow-hidden flex-shrink-0">
+                    <img
+                      src={challenge.image}
+                      alt={challenge.title}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                    />
+                    <div className={`absolute inset-0 bg-gradient-to-t ${challenge.color} opacity-20`}></div>
+                    <div className="absolute top-2 right-2">
+                      <challenge.icon className="w-4 h-4 text-white drop-shadow-lg" />
+                    </div>
                   </div>
-                </div>
 
-                {/* Challenge number */}
-                <div className="absolute top-4 right-4">
-                  <Badge variant="secondary" className="bg-primary text-primary-foreground">
-                    Track {challenge.id}
-                  </Badge>
-                </div>
-              </div>
-
-              <CardHeader className="space-y-4">
-                <div>
-                  <p className="text-sm text-muted-foreground font-medium mb-1">{challenge.subtitle}</p>
-                  <CardTitle className="text-2xl font-bold text-foreground group-hover:text-primary transition-colors">
-                    {challenge.title}
-                  </CardTitle>
-                </div>
-                <CardDescription className="text-base leading-relaxed">
-                  {challenge.description}
-                </CardDescription>
-              </CardHeader>
-
-              <CardContent className="space-y-6">
-                {/* Challenge stats */}
-                <div className="grid grid-cols-2 gap-4 text-sm">
-                  <div className="flex items-center space-x-2">
-                    <Star className="w-4 h-4 text-primary" />
-                    <span className="text-muted-foreground">{challenge.difficulty}</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <Clock className="w-4 h-4 text-primary" />
-                    <span className="text-muted-foreground">{challenge.duration}</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <Users className="w-4 h-4 text-primary" />
-                    <span className="text-muted-foreground">{challenge.teams}</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <Trophy className="w-4 h-4 text-primary" />
-                    <span className="font-semibold text-primary">{challenge.prize}</span>
-                  </div>
-                </div>
-
-                {/* Skills */}
-                <div>
-                  <p className="text-sm font-medium text-foreground mb-2">Required Skills:</p>
-                  <div className="flex flex-wrap gap-2">
-                    {challenge.skills.map((skill) => (
-                      <Badge key={skill} variant="outline" className="text-xs">
-                        {skill}
+                  {/* Track info */}
+                  <div className="flex-1 text-left">
+                    <div className="flex items-center space-x-2 mb-1">
+                      <Badge variant="secondary" className="bg-primary text-primary-foreground text-xs">
+                        Track {challenge.id}
                       </Badge>
-                    ))}
+                      <span className="text-sm text-muted-foreground">{challenge.difficulty}</span>
+                    </div>
+                    <h3 className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
+                      {challenge.title}
+                    </h3>
+                    <p className="text-sm text-muted-foreground mt-1 line-clamp-2">
+                      {challenge.description}
+                    </p>
                   </div>
                 </div>
+              </AccordionTrigger>
+              
+              <AccordionContent className="px-6 pb-6">
+                <div className="grid md:grid-cols-2 gap-6">
+                  {/* Enhanced image */}
+                  <div className="relative h-48 rounded-lg overflow-hidden">
+                    <img
+                      src={challenge.image}
+                      alt={challenge.title}
+                      className="w-full h-full object-cover"
+                    />
+                    <div className={`absolute inset-0 bg-gradient-to-t ${challenge.color} opacity-20`}></div>
+                  </div>
 
-                {/* Action button */}
-                <Button 
-                  variant="outline" 
-                  className="w-full group-hover:shadow-magical transition-all"
-                >
-                  Learn More About This Challenge
-                </Button>
-              </CardContent>
-            </Card>
+                  {/* Detailed info */}
+                  <div className="space-y-4">
+                    <div>
+                      <h4 className="font-semibold text-foreground mb-2">Challenge Details</h4>
+                      <p className="text-muted-foreground leading-relaxed">
+                        {challenge.description}
+                      </p>
+                    </div>
+
+                    {/* Challenge stats */}
+                    <div className="grid grid-cols-2 gap-4 text-sm">
+                      <div className="flex items-center space-x-2">
+                        <Star className="w-4 h-4 text-primary" />
+                        <span className="text-muted-foreground">{challenge.difficulty}</span>
+                      </div>
+                      <div className="flex items-center space-x-2">
+                        <Clock className="w-4 h-4 text-primary" />
+                        <span className="text-muted-foreground">{challenge.duration}</span>
+                      </div>
+                      <div className="flex items-center space-x-2">
+                        <Users className="w-4 h-4 text-primary" />
+                        <span className="text-muted-foreground">{challenge.teams}</span>
+                      </div>
+                      <div className="flex items-center space-x-2">
+                        <Trophy className="w-4 h-4 text-primary" />
+                        <span className="font-semibold text-primary">{challenge.prize}</span>
+                      </div>
+                    </div>
+
+                    {/* Skills */}
+                    <div>
+                      <h4 className="font-semibold text-foreground mb-2">Required Skills</h4>
+                      <div className="flex flex-wrap gap-2">
+                        {challenge.skills.map((skill) => (
+                          <Badge key={skill} variant="outline" className="text-xs">
+                            {skill}
+                          </Badge>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Action button */}
+                    <Button 
+                      variant="default" 
+                      className="w-full shadow-magical"
+                    >
+                      Learn More About This Challenge
+                    </Button>
+                  </div>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
           ))}
-        </div>
+        </Accordion>
 
         {/* Stats section */}
         <div className="grid md:grid-cols-4 gap-8 text-center">

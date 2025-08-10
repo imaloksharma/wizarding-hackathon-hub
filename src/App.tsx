@@ -10,28 +10,33 @@ import Schedule from "./pages/Schedule";
 import Rules from "./pages/Rules";
 import NotFound from "./pages/NotFound";
 import OpenInnovation from "./pages/tracks/OpenInnovation";
+import TrackDetails from "./pages/tracks/TrackDetails";
+import { HelmetProvider } from "react-helmet-async";
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
-      <TooltipProvider>
-        <Toaster />
-        <Sonner />
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/brochure" element={<Brochure />} />
-            <Route path="/schedule" element={<Schedule />} />
-            <Route path="/rules" element={<Rules />} />
-            <Route path="/tracks/open-innovation" element={<OpenInnovation />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </BrowserRouter>
-      </TooltipProvider>
-    </ThemeProvider>
+    <HelmetProvider>
+      <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+        <TooltipProvider>
+          <Toaster />
+          <Sonner />
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<Index />} />
+              <Route path="/brochure" element={<Brochure />} />
+              <Route path="/schedule" element={<Schedule />} />
+              <Route path="/rules" element={<Rules />} />
+              <Route path="/tracks/open-innovation" element={<OpenInnovation />} />
+              <Route path="/tracks/:slug" element={<TrackDetails />} />
+              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </BrowserRouter>
+        </TooltipProvider>
+      </ThemeProvider>
+    </HelmetProvider>
   </QueryClientProvider>
 );
 

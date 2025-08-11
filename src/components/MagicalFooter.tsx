@@ -23,7 +23,7 @@ const MagicalFooter = () => {
 
   const quickLinks = [
     { name: "HackSpark 2025 Problem Statements", href: "https://docs.google.com/document/d/1RlPwPsrsJ-2ouulQbwoenKxHPTnpJRrvqvLNdSpzMEo/edit?usp=sharing" },
-    { name: "Challenges", href: "#challenges" },
+    { name: "Challenges", href: "#challenge" },
     { name: "Prizes", href: "#prizes" },
     { name: "Timeline", href: "#timeline" },
     { name: "Rules", href: "#rules" },

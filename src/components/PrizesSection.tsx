@@ -7,7 +7,7 @@ const PrizesSection = () => {
     {
       rank: "1st Place",
       title: "Triwizard Champions",
-      amount: "₹Surprise",
+      amount: "₹ 15,000",
       description: "The ultimate glory and recognition as the most skilled magical developers.",
       icon: Crown,
       gradient: "from-yellow-400 via-yellow-500 to-amber-600",
@@ -23,7 +23,7 @@ const PrizesSection = () => {
     {
       rank: "2nd Place",
       title: "Order of Merlin",
-      amount: "₹Surprise",
+      amount: "₹10,000",
       description: "Exceptional magical abilities deserve exceptional recognition and rewards.",
       icon: Medal,
       gradient: "from-gray-300 via-gray-400 to-gray-500",
@@ -39,7 +39,7 @@ const PrizesSection = () => {
     {
       rank: "3rd Place",
       title: "House Cup Winners",
-      amount: "₹Surprise",
+      amount: "₹ 5000",
       description: "Your magical journey has earned you a place among the most talented wizards.",
       icon: Trophy,
       gradient: "from-amber-600 via-amber-700 to-yellow-800",
@@ -58,28 +58,28 @@ const PrizesSection = () => {
     {
       title: "Best Innovation",
       description: "Most creative and innovative solution",
-      prize: "₹Surprise",
+      prize: "₹1000",
       icon: Star,
       color: "text-purple-500"
     },
     {
       title: "Best UI/UX",
       description: "Most beautiful and user-friendly design",
-      prize: "₹Surprise",
+      prize: "₹700",
       icon: Award,
       color: "text-pink-500"
     },
     {
       title: "Best Tech Implementation",
       description: "Most impressive technical achievement",
-      prize: "₹Surprise",
+      prize: "₹1000",
       icon: Gift,
       color: "text-blue-500"
     },
     {
       title: "People's Choice",
       description: "Voted by fellow participants",
-      prize: "₹Surprise",
+      prize: "₹500",
       icon: Star,
       color: "text-green-500"
     }

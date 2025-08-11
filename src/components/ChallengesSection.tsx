@@ -14,9 +14,9 @@ const ChallengesSection = () => {
   const challenges = [
     {
       id: 1,
-      title: "AI for Green Economy",
+      title: "Generative AI",
       subtitle: "Track 1",
-      description: "Develop AI-powered solutions that promote sustainability and environmental conservation. Create technologies that help reduce carbon footprint and support green initiatives.",
+      description: "Unleash creativity with cutting-edge AI models that generate text, images, code, and more. This track challenges participants to build innovative solutions using AI-driven content creation, design, and problem-solving",
       image: aiGreenEconomyImg,
       icon: Flame,
       difficulty: "Intermediate",
@@ -28,9 +28,9 @@ const ChallengesSection = () => {
     },
     {
       id: 2,
-      title: "AI for Blue Economy",
+      title: "FinTech",
       subtitle: "Track 2", 
-      description: "Build AI solutions focused on marine and ocean technology. Develop systems that help protect our oceans while creating sustainable economic opportunities.",
+      description: "Revolutionize the future of finance with technology-driven solutions. From digital payments and blockchain to AI-powered financial tools, this track empowers participants to build secure, scalable, and inclusive innovations for the financial world.",
       image: aiBlueEconomyImg,
       icon: Fish,
       difficulty: "Advanced",
@@ -42,9 +42,9 @@ const ChallengesSection = () => {
     },
     {
       id: 3,
-      title: "Cyber Security",
+      title: "Cyber Security & Web3",
       subtitle: "Track 3",
-      description: "Create innovative cybersecurity solutions to protect digital infrastructure. Develop tools and systems that enhance security and privacy in our connected world.",
+      description: "Build the future of secure, decentralized systems. This track invites innovators to create solutions that safeguard data, enhance privacy, and harness blockchain to power trustless, transparent, and resilient digital ecosystems.",
       image: cyberSecurityImg,
       icon: Trophy,
       difficulty: "Expert",
@@ -56,9 +56,9 @@ const ChallengesSection = () => {
     },
     {
       id: 4,
-      title: "Smart Education System",
+      title: "Space Station Hackathon: Object Detection with Synthetic Data",
       subtitle: "Track 4",
-      description: "Design intelligent educational platforms that enhance learning experiences. Build AI-powered tools that make education more accessible and effective.",
+      description: "Develop advanced object detection algorithms using synthetic data generated from space station imagery. This track focuses on creating AI models that can accurately identify and classify objects in complex environments, leveraging the power of synthetic datasets.",
       image: smartEducationImg,
       icon: Star,
       difficulty: "Intermediate",

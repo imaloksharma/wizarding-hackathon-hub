@@ -29,7 +29,7 @@ const CommunityPartnersSection = () => {
       website: "#"
     },
     {
-      name: "Partner 5",
+      name: "Endless domains",
       logo: partner5,
       website: "#"
     },

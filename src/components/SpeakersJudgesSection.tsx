@@ -49,45 +49,7 @@ const SpeakersJudgesSection = () => {
         email: "#"
       }
     },
-    {
-      name: "Priya Sharma",
-      title: "Startup Ecosystem Judge",
-      organization: "Sequoia Capital",
-      image: judge2,
-      type: "Judge",
-      bio: "Investment director focusing on early-stage tech startups and innovation.",
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        email: "#"
-      }
-    },
-    {
-      name: "Arjun Patel",
-      title: "Industry Expert Judge",
-      organization: "Microsoft India",
-      image: judge3,
-      type: "Judge",
-      bio: "Principal architect leading cloud solutions and enterprise innovation.",
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        email: "#"
-      }
-    },
-    {
-      name: "Kavya Menon",
-      title: "Product Innovation Judge",
-      organization: "Google",
-      image: judge4,
-      type: "Judge",
-      bio: "Senior product manager driving developer tools and platform innovation.",
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        email: "#"
-      }
-    }
+    
   ];
 
   return (

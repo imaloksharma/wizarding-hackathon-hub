@@ -25,7 +25,7 @@ const SpeakersJudgesSection = () => {
     },
     {
       name: "Priyanshi Rai",
-      title: "Software Engineer",
+      title: "GitHub Campus Expert",
       organization: "GitHub",
       image: priyanshiRai,
       type: "Speaker",
@@ -37,12 +37,12 @@ const SpeakersJudgesSection = () => {
       }
     },
     {
-      name: "Dr. Rajesh Kumar",
-      title: "Tech Innovation Judge",
-      organization: "IIT Delhi",
+      name: "Pranav Kumar",
+      title: "Associate Staff Engineer",
+      organization: "Nagarro",
       image: judge1,
       type: "Judge",
-      bio: "Professor of Computer Science specializing in AI and Machine Learning research.",
+      bio: "Innovative IT professional with a proven track record of over 8 years in the industry, fueling business success through cutting-edge solutions.",
       social: {
         linkedin: "#",
         twitter: "#",

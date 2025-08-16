@@ -12,7 +12,7 @@ const SpeakersJudgesSection = () => {
   const speakers = [
     {
       name: "Arpan Garg",
-      title: "Founder",
+      title: "Founder and Google Developer Groups NEW Delhi Organizer",
       organization: "Commudle",
       image: arpanGarg,
       type: "Speaker",

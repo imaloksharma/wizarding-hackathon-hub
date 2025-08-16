@@ -53,7 +53,7 @@ const SpeakersJudgesSection = () => {
       name: "Ayush Kumar",
       title: "Lead DevRel Engineer ",
       organization: "NodeShift",
-      image: judge1,
+      image: judge2,
       type: "Judge",
       bio: "Ayush Kumar is a Developer Advocate. He is an Open Source Enthusiast, Full Stack Developer, Community Manager, DevRel Engineer, AWS Community Builder, and GitHub Campus Expert",
       social: {

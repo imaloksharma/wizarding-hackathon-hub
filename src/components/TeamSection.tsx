@@ -26,17 +26,7 @@ const TeamSection = () => {
         email: "vidhiv671@gmail.com"
       }
     },
-      {
-      name: "Alok Kumar",
-      role: "Co-Organizer",
-      bio: "Software architect specializing in scalable web applications and cloud computing.",
-      image: member2,
-      social: {
-        github: "#",
-        linkedin: "#",
-        email: "#"
-      }
-    },
+      
   
     {
       name: "Jahanvi Rana",

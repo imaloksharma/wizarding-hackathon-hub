@@ -38,12 +38,12 @@ const SponsorsSection = () => {
       website: "#"
     },
     {
-      name: "TechCorp",
+      name: "EthIndia",
       logo: techcorp,
       website: "#"
     },
     {
-      name: "InnovateX",
+      name: "Devfolio",
       logo: innovatex,
       website: "#"
     },

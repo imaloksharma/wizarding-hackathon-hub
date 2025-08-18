@@ -70,7 +70,7 @@ const SponsorsSection = () => {
         {/* Section header */}
         <div className="text-center mb-12">
           <h3 className="text-3xl md:text-4xl font-bold text-magical mb-4">
-            Powered By
+            Sponsor By
           </h3>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             In collaboration with leading organizations driving innovation in technology and education.

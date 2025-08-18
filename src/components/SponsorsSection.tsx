@@ -47,21 +47,9 @@ const SponsorsSection = () => {
       logo: innovatex,
       website: "#"
     },
-    {
-      name: "CloudSync",
-      logo: cloudsync,
-      website: "#"
-    },
-    {
-      name: "DataFlow",
-      logo: dataflow,
-      website: "#"
-    },
-    {
-      name: "NextGen",
-      logo: nextgen,
-      website: "#"
-    }
+  
+    
+  
   ];
 
   return (

@@ -26,8 +26,8 @@ const TeamSection = () => {
         email: "vidhiv671@gmail.com"
       }
     },
-
-    {
+      
+  {
       name: "Alok Kumar",
       role: "Co-Organizer",
       bio: "Software architect specializing in scalable web applications and cloud computing.",
@@ -61,7 +61,7 @@ const TeamSection = () => {
       }
     },
     {
-      name: "Abhay Kaushal",
+      name: "Abhay Kaushal", 
       role: "All Events Management Lead",
       bio: "Security engineer and ethical hacker focused on protecting digital infrastructure.",
       image: member5,
@@ -125,9 +125,9 @@ const TeamSection = () => {
         linkedin: "#",
         email: "#"
       }
-    },
+    },    
   ];
-
+  
   return (
     <section id="team" className="py-24 relative">
       <div className="container mx-auto px-4">
@@ -137,7 +137,7 @@ const TeamSection = () => {
             Meet the Magical Team
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Our diverse team of tech innovators, industry experts, and community leaders
+            Our diverse team of tech innovators, industry experts, and community leaders 
             working together to create an extraordinary hackathon experience.
           </p>
         </div>
@@ -145,7 +145,7 @@ const TeamSection = () => {
         {/* Team grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
           {teamMembers.map((member, index) => (
-            <Card
+            <Card 
               key={index}
               className="group bg-gradient-card border-border hover:shadow-glow transition-all duration-500 hover:scale-105"
             >
@@ -175,22 +175,22 @@ const TeamSection = () => {
 
                 {/* Social links */}
                 <div className="flex justify-center space-x-3 pt-2">
-                  <a
-                    href={member.social.github}
+                  <a 
+                    href={member.social.github} 
                     className="text-muted-foreground hover:text-primary transition-colors"
                     aria-label={`${member.name} GitHub`}
                   >
                     <Github className="w-4 h-4" />
                   </a>
-                  <a
-                    href={member.social.linkedin}
+                  <a 
+                    href={member.social.linkedin} 
                     className="text-muted-foreground hover:text-primary transition-colors"
                     aria-label={`${member.name} LinkedIn`}
                   >
                     <Linkedin className="w-4 h-4" />
                   </a>
-                  <a
-                    href={`mailto:${member.social.email}`}
+                  <a 
+                    href={`mailto:${member.social.email}`} 
                     className="text-muted-foreground hover:text-primary transition-colors"
                     aria-label={`Email ${member.name}`}
                   >
@@ -209,7 +209,7 @@ const TeamSection = () => {
               Join Our Growing Community
             </h3>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              Want to be part of organizing future hackathons? We're always looking for passionate
+              Want to be part of organizing future hackathons? We're always looking for passionate 
               individuals to join our team and help create amazing experiences for developers worldwide.
             </p>
             <div className="flex justify-center space-x-12 pt-8">

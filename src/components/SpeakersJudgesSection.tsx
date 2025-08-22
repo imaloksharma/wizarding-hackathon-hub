@@ -62,6 +62,19 @@ const SpeakersJudgesSection = () => {
         email: "#"
       }
     },
+      {
+      name: "Loveleen Kaur",
+      title: " Senior Android Engineer ",
+      organization: " Probo",
+      image: judge2,
+      type: "Judge",
+      bio: "Loveleen Kaur, a bundle of positivity and happiness, this tech-savvy girl loves mountains and works wonders with technology. She is working as Senior Engineer with 7 years of experience.",
+      social: {
+        linkedin: "https://www.linkedin.com/in/loveleen-kaur/",
+        twitter: "#",
+        email: "#"
+      }
+    },
     
   ];
 

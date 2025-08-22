@@ -43,7 +43,7 @@ const SponsorsSection = () => {
       website: "#"
     },
     {
-      name: "Devfolio",
+      name: "Future Finders",
       logo: innovatex,
       website: "#"
     },

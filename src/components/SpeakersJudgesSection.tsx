@@ -75,6 +75,19 @@ const SpeakersJudgesSection = () => {
         email: "#"
       }
     },
+    {
+      name: "Sheshank Srivastava",
+      title: " Software Engineer ",
+      organization: "Samsung",
+      image: judge3,
+      type: "Judge",
+      bio: "Sheshank Srivastava is a Software Engineer at Samsung with 5 years of experience in building scalable web applications and cloud solutions. He is passionate about technology and innovation.",
+      social: {
+        linkedin: "https://www.linkedin.com/in/andi-sheshank/overlay/about-this-profile/",
+        twitter: "#",
+        email: "sheshank281198@gmail.com"
+      }
+    },
     
   ];
 

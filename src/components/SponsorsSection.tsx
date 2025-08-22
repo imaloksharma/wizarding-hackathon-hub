@@ -52,7 +52,11 @@ const SponsorsSection = () => {
       logo: cloudsync,
       website: "#"
     },
-
+  {
+      name: "Mits Academic",
+      logo: cloudsync,
+      website: "#"
+    },
 
   ];
 

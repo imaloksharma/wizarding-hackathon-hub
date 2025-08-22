@@ -15,7 +15,7 @@ const SpeakersJudgesSection = () => {
       title: "Founder and Google Developer Groups NEW Delhi Organizer",
       organization: "Commudle",
       image: arpanGarg,
-      type: "Speaker",
+      type: "Speaker & Judge",
       bio: "Visionary founder building the future of community-driven tech education and collaboration.",
       social: {
         linkedin: "#",

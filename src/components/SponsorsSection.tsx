@@ -47,7 +47,11 @@ const SponsorsSection = () => {
       logo: innovatex,
       website: "#"
     },
-
+  {
+      name: "Geeks For Geeks",
+      logo: cloudsync,
+      website: "#"
+    },
 
 
   ];

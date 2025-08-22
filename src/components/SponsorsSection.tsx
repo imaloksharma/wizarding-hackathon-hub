@@ -53,8 +53,8 @@ const SponsorsSection = () => {
       website: "#"
     },
   {
-      name: "Mits Academic",
-      logo: cloudsync,
+      name: "MITS Academy",
+      logo: dataflow,
       website: "#"
     },
 

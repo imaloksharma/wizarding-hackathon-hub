@@ -57,7 +57,11 @@ const SponsorsSection = () => {
       logo: dataflow,
       website: "#"
     },
-
+  {
+      name: "Ansh Infotech",
+      logo: dataflow,
+      website: "#"
+    },
   ];
 
   return (

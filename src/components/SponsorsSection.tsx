@@ -9,7 +9,12 @@ import innovatex from '@/assets/sponsors/innovatex.jpg';
 import cloudsync from '@/assets/sponsors/cloudsync.jpg';
 import dataflow from '@/assets/sponsors/dataflow.jpg';
 import nextgen from '@/assets/sponsors/nextgen.jpg';
-
+import IMCEDU from '@/assets/sponsors/IMCEDU.jpg';
+import interviewbuddy from '@/assets/sponsors/interviewbuddy.png';
+import AOSCTECHNOLOGIES from '@/assets/sponsors/AOSC TECHNOLOGIES.png';
+import pw from '@/assets/sponsors/pw.png';
+import Toyota from '@/assets/sponsors/Toyota.jpg';
+import VoyageAviation from '@/assets/sponsors/Voyage Aviation.jpg';
 const SponsorsSection = () => {
   const sponsors = [
     {
@@ -17,6 +22,17 @@ const SponsorsSection = () => {
       logo: github,
       website: "https://github.com"
     },
+      {
+      name: "Toyota",
+      logo: Toyota,
+      website: "#"
+    },
+      {
+      name: "Voyage Aviation",
+      logo: VoyageAviation,
+      website: "#"
+    },
+    
     {
       name: "Endless Domain",
       logo: endlessDomain,
@@ -27,16 +43,7 @@ const SponsorsSection = () => {
       logo: hackWithIndia,
       website: "#"
     },
-    {
-      name: "KCET Amritsar",
-      logo: kcetAmritsar,
-      website: "#"
-    },
-    {
-      name: "HackSpark",
-      logo: hacksparkLogo,
-      website: "#"
-    },
+  
     {
       name: "Prime",
       logo: techcorp,
@@ -58,10 +65,27 @@ const SponsorsSection = () => {
       website: "#"
     },
   {
-      name: "Ansh Infotech",
-      logo: dataflow,
+      name: "IMCEDU",
+      logo: IMCEDU,
       website: "#"
     },
+    {
+      name: "interviewbuddy",
+      logo: interviewbuddy,
+      website: "#"
+    },
+    {
+      name: "AOSC TECHNOLOGIES",
+      logo: AOSCTECHNOLOGIES,
+      website: "#"
+    },
+    {
+      name: "Physics wallah",
+      logo: pw,
+      website: "#"
+    },
+  
+    
   ];
 
   return (

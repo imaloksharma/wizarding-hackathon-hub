@@ -39,6 +39,7 @@ const AboutSection = () => {
       description: "Connect with like-minded developers and build lasting professional relationships.",
       gradient: "from-yellow-500 to-green-500"
     }
+    
   ];
 
   return (

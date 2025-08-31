@@ -34,7 +34,7 @@ const CommunityPartnersSection = () => {
       website: "#"
     },
     {
-      name: "Partner 6",
+      name: "The Elites",
       logo: partner6,
       website: "#"
     }

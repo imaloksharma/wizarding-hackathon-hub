@@ -3,6 +3,7 @@ import { Mail, Phone } from 'lucide-react';
 import drManjuBala from '@/assets/faculty/dr-manju-bala.jpg';
 import drAtulAgnihotri from '@/assets/faculty/dr-atul-agnihotri.jpg';
 import drManeetKaur from '@/assets/faculty/dr-maneet-kaur.jpg';
+import jasleen from '@/assets/faculty/jasleen.jpg';
 
 const FacultyCoordinatorsSection = () => {
   const facultyMembers = [
@@ -12,6 +13,15 @@ const FacultyCoordinatorsSection = () => {
       institution: "KCET",
       image: drManjuBala,
       email: "director@kcet.ac.in",
+      phone: "+91-XXX-XXX-XXXX"
+    },
+      
+    {
+      name: "Jasleen Kaur",
+      position: "HoD of CSE Department",
+      institution: "KCET",
+      image: jasleen,
+      email: "jasleen@kcet.ac.in",
       phone: "+91-XXX-XXX-XXXX"
     },
     {
@@ -30,6 +40,7 @@ const FacultyCoordinatorsSection = () => {
       email: "alumni@kcet.ac.in",
       phone: "+91-XXX-XXX-XXXX"
     }
+  
   ];
 
   return (

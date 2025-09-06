@@ -7,6 +7,7 @@ import judge1 from '@/assets/speakers/judge1.jpg';
 import judge2 from '@/assets/speakers/judge2.jpg';
 import judge3 from '@/assets/speakers/judge3.jpg';
 import judge4 from '@/assets/speakers/judge4.jpg';
+import loveleen from '@/assets/speakers/loveleen.jpg';
 
 const SpeakersJudgesSection = () => {
   const speakers = [
@@ -66,7 +67,7 @@ const SpeakersJudgesSection = () => {
       name: "Loveleen Kaur",
       title: " Senior Android Engineer ",
       organization: " Probo",
-      image: judge4,
+      image: loveleen,
       type: "Judge",
       bio: "Loveleen Kaur, a bundle of positivity and happiness, this tech-savvy girl loves mountains and works wonders with technology. She is working as Senior Engineer with 7 years of experience.",
       social: {

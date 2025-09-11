@@ -9,6 +9,8 @@ import TeamSection from '@/components/TeamSection';
 import CommunityPartnersSection from '@/components/CommunityPartnersSection';
 import FacultyCoordinatorsSection from '@/components/FacultyCoordinatorsSection';
 import SpeakersJudgesSection from '@/components/SpeakersJudgesSection';
+import MentorsSection from '@/components/MentorsSection';
+import ChiefGuestSection from '@/components/ChiefGuestSection';
 import ContactSection from '@/components/ContactSection';
 import MagicalFooter from '@/components/MagicalFooter';
 
@@ -24,7 +26,9 @@ const Index = () => {
       <TeamSection />
       <CommunityPartnersSection />
       <FacultyCoordinatorsSection />
+      <ChiefGuestSection />
       <SpeakersJudgesSection />
+      <MentorsSection />
       <TimelineSection />
       <ContactSection />
       <MagicalFooter />

@@ -4,6 +4,7 @@ import drManjuBala from '@/assets/faculty/dr-manju-bala.jpg';
 import drAtulAgnihotri from '@/assets/faculty/dr-atul-agnihotri.jpg';
 import drManeetKaur from '@/assets/faculty/dr-maneet-kaur.jpg';
 import jasleen from '@/assets/faculty/jasleen.jpg';
+import maneetkaur from '@/assets/faculty/maneet-kaur.jpg';
 
 const FacultyCoordinatorsSection = () => {
   const facultyMembers = [
@@ -24,6 +25,7 @@ const FacultyCoordinatorsSection = () => {
       email: "jasleen@kcet.ac.in",
       phone: "+91-XXX-XXX-XXXX"
     },
+    
     {
       name: "Dr. Atul Agnihotri",
       position: "IIC Head",
@@ -36,7 +38,7 @@ const FacultyCoordinatorsSection = () => {
       name: "Dr. Maneet Kaur",
       position: "Alumni Cell Head",
       institution: "KCET",
-      image: drManeetKaur,
+      image: maneetkaur,
       email: "alumni@kcet.ac.in",
       phone: "+91-XXX-XXX-XXXX"
     }

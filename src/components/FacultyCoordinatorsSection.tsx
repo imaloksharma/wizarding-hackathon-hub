@@ -4,14 +4,14 @@ import drManjuBala from '@/assets/faculty/dr-manju-bala.jpg';
 import drAtulAgnihotri from '@/assets/faculty/dr-atul-agnihotri.jpg';
 import drManeetKaur from '@/assets/faculty/dr-maneet-kaur.jpg';
 import jasleen from '@/assets/faculty/jasleen.jpg';
-import maneetkaur from '@/assets/faculty/maneet-kaur.jpg';
+import maneetkaur from '@/assets/faculty/maneetkaur.jpg';
 
 const FacultyCoordinatorsSection = () => {
   const facultyMembers = [
     {
       name: "Dr. Manju Bala",
       position: "Director",
-      institution: "KCET",
+      institution: "khalsa college of engineering and technology Amritsar",
       image: drManjuBala,
       email: "director@kcet.ac.in",
       phone: "+91-XXX-XXX-XXXX"
@@ -20,26 +20,18 @@ const FacultyCoordinatorsSection = () => {
     {
       name: "Jasleen Kaur",
       position: "HoD of CSE Department",
-      institution: "KCET",
+      institution: "khalsa college of engineering and technology Amritsar",
       image: jasleen,
       email: "jasleen@kcet.ac.in",
       phone: "+91-XXX-XXX-XXXX"
     },
     
     {
-      name: "Dr. Atul Agnihotri",
-      position: "IIC Head",
-      institution: "KCET",
-      image: drAtulAgnihotri,
-      email: "iic@kcet.ac.in",
-      phone: "+91-XXX-XXX-XXXX"
-    },
-    {
       name: "Dr. Maneet Kaur",
       position: "Alumni Cell Head",
-      institution: "KCET",
+      institution: "khalsa college of engineering and technology Amritsar",
       image: maneetkaur,
-      email: "alumni@kcet.ac.in",
+      Linkedin: "https://www.linkedin.com/in/maneet-bohmrah-401b0b291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "+91-XXX-XXX-XXXX"
     }
   

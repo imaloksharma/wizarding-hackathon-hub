@@ -13,6 +13,17 @@ import mentor9 from '@/assets/mentors/mentor9.jpg';
 import mentor10 from '@/assets/mentors/mentor10.jpg';
 import mentor11 from '@/assets/mentors/mentor11.jpg';
 import mentor12 from '@/assets/mentors/mentor12.jpg';
+import Pra from '@/assets/mentors/Pra.jpg';
+import Rohan from '@/assets/mentors/Rohan.jpeg';
+import nikhil from '@/assets/mentors/nikhil.jpg';
+import v from '@/assets/mentors/v.jpeg';
+import sonu from '@/assets/mentors/sonu.jpeg';
+import Bhavya from '@/assets/mentors/Bhavya.jpg';
+import sargam from '@/assets/mentors/sargam.jpg';
+import sarika from '@/assets/mentors/sarika.jpg';
+import Akansha from '@/assets/mentors/Akansha.jpeg';
+
+
 
 const MentorsSection = () => {
   const mentors = [
@@ -21,7 +32,7 @@ const MentorsSection = () => {
       title: "Specialist Programmer",
       company: " @Infosys",
       expertise: "Full Stack Development",
-      image: mentor1,
+      image: sarika,
       social: { linkedin: "#", twitter: "#", github: "#" }
     },
     {
@@ -29,7 +40,7 @@ const MentorsSection = () => {
       title: "Academic Trainee",
       company: "KPMG",
       expertise: "Machine Learning",
-      image: mentor2,
+      image: Pra,
       social: { linkedin: "#", twitter: "#", github: "#" }
     },
     {
@@ -37,7 +48,7 @@ const MentorsSection = () => {
       title: "— Senior SDET ",
       company: "@StarHealth",
       expertise: "Information Security",
-      image: mentor3,
+      image: Akansha,
       social: { linkedin: "#", twitter: "#", github: "#" }
     },
     {
@@ -45,7 +56,7 @@ const MentorsSection = () => {
       title: "Design Engineer",
       company: "Freelance",
       expertise: "Web3 & DeFi",
-      image: mentor4,
+      image: sargam,
       social: { linkedin: "#", twitter: "#", github: "#" }
     },
     {
@@ -53,7 +64,7 @@ const MentorsSection = () => {
       title: "Software Engineer ",
       company: "@Delhivery",
       expertise: "React Native",
-      image: mentor5,
+      image: Rohan,
       social: { linkedin: "#", twitter: "#", github: "#" }
     },
     {
@@ -85,7 +96,7 @@ const MentorsSection = () => {
       title: " Builder ",
       company: "@HelpingGeeks",
       expertise: "Game Development",
-      image: mentor9,
+      image: nikhil,
       social: { linkedin: "#", twitter: "#", github: "#" }
     },
     {
@@ -93,7 +104,7 @@ const MentorsSection = () => {
       title: "Cyber Security Expert",
       company: "Govt. of India",
       expertise: "Product Strategy",
-      image: mentor10,
+      image: sonu,
       social: { linkedin: "#", twitter: "#", github: "#" }
     },
     {
@@ -101,7 +112,7 @@ const MentorsSection = () => {
       title: "Full Stack Developer ",
       company: "@Deployd.io",
       expertise: "Design Systems",
-      image: mentor11,
+      image: v,
       social: { linkedin: "#", twitter: "#", github: "#" }
     },
     {
@@ -109,7 +120,7 @@ const MentorsSection = () => {
       title: "Team Lead ",
       company: "@U&I Trust",
       expertise: "Natural Language Processing",
-      image: mentor12,
+      image: Bhavya,
       social: { linkedin: "#", twitter: "#", github: "#" }
     }
   ];

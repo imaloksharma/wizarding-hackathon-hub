@@ -17,49 +17,49 @@ import mentor12 from '@/assets/mentors/mentor12.jpg';
 const MentorsSection = () => {
   const mentors = [
     {
-      name: "Rahul Sharma",
-      title: "Senior Software Engineer",
-      company: "Google",
+      name: "Sarika Purohit",
+      title: "Specialist Programmer",
+      company: " @Infosys",
       expertise: "Full Stack Development",
       image: mentor1,
       social: { linkedin: "#", twitter: "#", github: "#" }
     },
     {
-      name: "Priya Singh",
-      title: "AI Research Scientist",
-      company: "Microsoft",
+      name: "Prayesi Agarwal",
+      title: "Academic Trainee",
+      company: "KPMG",
       expertise: "Machine Learning",
       image: mentor2,
       social: { linkedin: "#", twitter: "#", github: "#" }
     },
     {
-      name: "Arjun Patel",
-      title: "Cybersecurity Expert",
-      company: "IBM",
+      name: "Akanksha Mishra ",
+      title: "— Senior SDET ",
+      company: "@StarHealth",
       expertise: "Information Security",
       image: mentor3,
       social: { linkedin: "#", twitter: "#", github: "#" }
     },
     {
-      name: "Anjali Verma",
-      title: "Blockchain Developer",
-      company: "Polygon",
+      name: "Sargam Tiwari — ",
+      title: "Design Engineer",
+      company: "Freelance",
       expertise: "Web3 & DeFi",
       image: mentor4,
       social: { linkedin: "#", twitter: "#", github: "#" }
     },
     {
-      name: "Karan Agarwal",
-      title: "Mobile App Developer",
-      company: "Uber",
+      name: "Rohan Goyal ",
+      title: "Software Engineer ",
+      company: "@Delhivery",
       expertise: "React Native",
       image: mentor5,
       social: { linkedin: "#", twitter: "#", github: "#" }
     },
     {
-      name: "Sneha Gupta",
-      title: "Data Scientist",
-      company: "Netflix",
+      name: "Anurag Mishra ",
+      title: "Software Engineer ",
+      company: "@PayU",
       expertise: "Data Analytics",
       image: mentor6,
       social: { linkedin: "#", twitter: "#", github: "#" }
@@ -81,33 +81,33 @@ const MentorsSection = () => {
       social: { linkedin: "#", twitter: "#", github: "#" }
     },
     {
-      name: "Aditya Kumar",
-      title: "Game Developer",
-      company: "Unity",
+      name: "Nikhil Shukla",
+      title: " Builder ",
+      company: "@HelpingGeeks",
       expertise: "Game Development",
       image: mentor9,
       social: { linkedin: "#", twitter: "#", github: "#" }
     },
     {
-      name: "Richa Mehta",
-      title: "Product Manager",
-      company: "Airbnb",
+      name: "Sonu Kumar",
+      title: "Cyber Security Expert",
+      company: "Govt. of India",
       expertise: "Product Strategy",
       image: mentor10,
       social: { linkedin: "#", twitter: "#", github: "#" }
     },
     {
-      name: "Saurabh Jain",
-      title: "UI/UX Designer",
-      company: "Figma",
+      name: "Karan V",
+      title: "Full Stack Developer ",
+      company: "@Deployd.io",
       expertise: "Design Systems",
       image: mentor11,
       social: { linkedin: "#", twitter: "#", github: "#" }
     },
     {
-      name: "Kavya Iyer",
-      title: "ML Engineer",
-      company: "OpenAI",
+      name: "Bhavya Vats ",
+      title: "Team Lead ",
+      company: "@U&I Trust",
       expertise: "Natural Language Processing",
       image: mentor12,
       social: { linkedin: "#", twitter: "#", github: "#" }

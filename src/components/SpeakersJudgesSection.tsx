@@ -8,6 +8,7 @@ import judge2 from '@/assets/speakers/judge2.jpg';
 import judge3 from '@/assets/speakers/judge3.jpg';
 import judge4 from '@/assets/speakers/judge4.jpg';
 import loveleen from '@/assets/speakers/loveleen.jpg';
+import karan from '@/assets/speakers/karan.jpg';
 
 const SpeakersJudgesSection = () => {
   const speakers = [
@@ -87,6 +88,19 @@ const SpeakersJudgesSection = () => {
         linkedin: "https://www.linkedin.com/in/andi-sheshank/overlay/about-this-profile/",
         twitter: "#",
         email: "sheshank281198@gmail.com"
+      }
+    },
+      {
+      name: "Karan Gupta",
+      title: " Sr. Cloud Data Engineer ",
+      organization: "KPMG US",
+      image: karan,
+      type: "Judge",
+      bio: "Sheshank Srivastava is a Software Engineer at Samsung with 5 years of experience in building scalable web applications and cloud solutions. He is passionate about technology and innovation.",
+      social: {
+        linkedin: "https://www.linkedin.com/in/karan-gupta-48161318/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        twitter: "#",
+        email: "#"
       }
     },
     

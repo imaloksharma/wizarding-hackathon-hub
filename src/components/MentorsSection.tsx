@@ -22,6 +22,7 @@ import Bhavya from '@/assets/mentors/Bhavya.jpg';
 import sargam from '@/assets/mentors/sargam.jpg';
 import sarika from '@/assets/mentors/sarika.jpg';
 import Akansha from '@/assets/mentors/Akansha.jpeg';
+import Anurag from '@/assets/mentors/Anurag.jpeg';
 
 
 
@@ -72,7 +73,7 @@ const MentorsSection = () => {
       title: "Software Engineer ",
       company: "@PayU",
       expertise: "Data Analytics",
-      image: mentor6,
+      image: Anurag,
       social: { linkedin: "#", twitter: "#", github: "#" }
     },
     {

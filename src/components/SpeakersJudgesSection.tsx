@@ -96,7 +96,7 @@ const SpeakersJudgesSection = () => {
       organization: "KPMG US",
       image: karan,
       type: "Judge",
-      bio: "Sheshank Srivastava is a Software Engineer at Samsung with 5 years of experience in building scalable web applications and cloud solutions. He is passionate about technology and innovation.",
+      bio: "An experienced data enginer with an expertise in Azure Synapse, Data Factory, Data Bricks, Dev Ops, CICD,AWS, Apache Airflow, CodeBuild, Athena, Harness, Power BI, Data Warehouse, Pipelines, Architecture & Orchestration, Docker",
       social: {
         linkedin: "https://www.linkedin.com/in/karan-gupta-48161318/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         twitter: "#",
